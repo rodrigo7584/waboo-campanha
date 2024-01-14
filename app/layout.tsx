@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
 import { Outfit, Roboto } from 'next/font/google'
 
-import '../styles/header.css'
+
 import '../styles/globals.css'
+
+import '../styles/header.css'
+import '../styles/footer.css'
 
 const roboto = Roboto({ subsets: ['latin'],
 weight:['300','400','500','700'],

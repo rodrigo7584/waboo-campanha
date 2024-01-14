@@ -30,7 +30,11 @@ const Header = () => {
             <Image src={logo} width={189} height={53} quality={100} alt="" />
           </Link>
           <nav className={isMenuOpen ? 'active' : ''}>
-            <button className={isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'}>
+            <button
+              className={
+                isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'
+              }
+            >
               <div></div>
               <div></div>
               <div></div>

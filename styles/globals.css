@@ -127,6 +127,7 @@ table {
   border-spacing: 0;
 }
 a {
+  display: block;
   text-decoration: none;
 }
 ul {
@@ -161,7 +162,7 @@ END BROWSER RESET
 
 body {
   position: relative;
-  background: var(--white);
+  background: var(--color-gray-100);
 }
 .container {
   width: 100%;
@@ -176,6 +177,21 @@ body {
   padding-right: 1rem;
   box-sizing: border-box;
 }
+h1{
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 3.3rem;
+  line-height: 0.8;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+p,a{
+  display: block;
+  font-family: var(--font-roboto);
+  font-size: 1.7rem;
+  line-height: 1.3;
+  color: var(--color-white);
+}
 .btn-green {
   background: var(--color-green);
   font-family: var(--font-outfit);
@@ -184,7 +200,13 @@ body {
   border-radius: 1rem;
   padding: 1.5rem 3rem;
 }
-
+.btn-green:hover {
+  filter: brightness(0.85) ;
+  transform: scale(0.95);
+}
+.link-green{
+  color: var(--color-green);
+}
 @media (max-width: 1400px) {
   .container {
     max-width: 1200px;
