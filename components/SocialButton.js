@@ -5,7 +5,7 @@ const SocialButton = ({ socialIcon, link }) => {
   return (
     <Link href={link} target="_blank">
       <Image
-        src={`/icon-${socialIcon}.png`}
+        src={`${socialIcon}`}
         className="icon-social"
         width={20}
         height={20}

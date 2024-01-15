@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Outfit, Roboto } from 'next/font/google'
 
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 import '../styles/globals.css'
 
@@ -26,7 +28,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} ${roboto.variable}`}>{children}</body>
+      <body className={`${outfit.variable} ${roboto.variable}`}>
+        <Header/>
+          {children}
+        <Footer/>
+      </body>
     </html>
   )
 }

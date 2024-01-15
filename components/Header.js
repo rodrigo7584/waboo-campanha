@@ -30,32 +30,28 @@ const Header = () => {
             <Image src={logo} width={189} height={53} quality={100} alt="" />
           </Link>
           <nav className={isMenuOpen ? 'active' : ''}>
-            <button
-              className={
-                isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'
-              }
-            >
+            <button className={isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'}>
               <div></div>
               <div></div>
               <div></div>
             </button>
             <ul>
-              <li>
+              <li className="menu-item">
                 <Link href="#hero">Home</Link>
               </li>
-              <li>
+              <li className="menu-item">
                 <Link href="#waboo">Waboo</Link>
               </li>
-              <li>
+              <li className="menu-item">
                 <Link href="#portifolio">Portifólio</Link>
               </li>
-              <li>
+              <li className="menu-item">
                 <Link href="#planos">Planos</Link>
               </li>
-              <li>
+              <li className="menu-item">
                 <Link href="#clientes">Clientes</Link>
               </li>
-              <li>
+              <li className="menu-item">
                 <Link href="#portifolio">FAQ</Link>
               </li>
               <li>
