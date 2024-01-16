@@ -4,6 +4,7 @@ import { Outfit, Roboto } from 'next/font/google'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
+import 'swiper/css'
 import '../styles/globals.css'
 
 import '../styles/header.css'

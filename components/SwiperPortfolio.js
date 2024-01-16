@@ -4,8 +4,6 @@ import Link from 'next/link'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 
-import 'swiper/css'
-
 import Image from 'next/image'
 
 const swiperDataPortfolio = [
@@ -17,6 +15,14 @@ const swiperDataPortfolio = [
 const SwiperPortfolio = () => {
   return (
     <div className="swiper-portfolio">
+      <Image
+        src={'/icon-arrow.png'}
+        className="swiper-button-next control-button"
+        width={36}
+        height={36}
+        quality={100}
+        alt=""
+      />
       <Swiper
         navigation={{
           prevEl: '.swiper-portfolio .swiper-button-prev',
@@ -30,7 +36,7 @@ const SwiperPortfolio = () => {
             spaceBetween: 20
           },
           992: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 40
           }
         }}
@@ -56,16 +62,7 @@ const SwiperPortfolio = () => {
       </Swiper>
       <Image
         src={'/icon-arrow.png'}
-        className="swiper-button-next"
-        width={36}
-        height={36}
-        quality={100}
-        alt=""
-      />
-
-      <Image
-        src={'/icon-arrow.png'}
-        className="swiper-button-prev"
+        className="swiper-button-prev control-button"
         width={36}
         height={36}
         quality={100}

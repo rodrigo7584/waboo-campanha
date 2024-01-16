@@ -1,0 +1,40 @@
+.why {
+  padding: 10rem 0;
+  background-color: var(--color-gray-200);
+}
+.why .col {
+  display: grid;
+  grid-template-columns: 30% 1fr 20rem;
+  align-items: center;
+  gap: 2rem;
+}
+.why .blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 10rem;
+}
+.spotlight-block {
+  width: 34rem;
+  background: var(--color-white);
+  filter: var(--shadow);
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.spotlight-block img {
+  width: 9rem;
+}
+.spotlight-block h4 {
+  margin-bottom: 0;
+  text-align: center;
+}
+.spotlight-block p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--color-gray-400);
+}

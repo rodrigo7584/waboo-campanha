@@ -1,0 +1,35 @@
+.portfolio {
+  background: var(--color-gray-200);
+  padding: 6rem 0;
+}
+.portfolio h2,
+.portfolio h3 {
+  text-align: center;
+}
+.swiper-portfolio {
+  position: relative;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3rem calc(100% - 6rem) 3rem;
+  padding: 5rem 0;
+}
+.swiper-portfolio .swiper {
+  width: 100%;
+}
+.swiper-portfolio .portfolio-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.swiper-portfolio .portfolio-box img {
+  width: 100%;
+}
+.swiper-portfolio .swiper-button-next {
+  transform: rotate(180deg);
+}
+.swiper-portfolio .control-button {
+  width: 2.5rem;
+  margin: 0.25rem;
+  cursor: pointer;
+}
