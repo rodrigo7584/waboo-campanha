@@ -1,0 +1,65 @@
+.accordion {
+  margin-bottom: 3rem;
+}
+.accordion-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--color-white);
+  padding: 1rem 1.5rem;
+  border: none;
+  color: var(--color-gray-400);
+  border-radius: 1rem;
+  text-align: left;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+.accordion-title.open {
+  background: var(--color-green);
+}
+.accordion-title .accordion-icon{
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+}
+.accordion-title .accordion-icon div{
+  position: absolute;
+  height: 0.3rem;
+  width: 100%;
+  border: 5rem;
+  background: var(--color-green);
+  transition: 0.3s ease;
+}
+.accordion-title .accordion-icon div:nth-child(1){
+  top: 50%;
+  transform: translateY(-50%);
+}
+.accordion-title .accordion-icon div:nth-child(2){
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}
+.accordion-title .accordion-icon.open div{
+  background: var(--color-white);
+}
+.accordion-title .accordion-icon.open div:nth-child(2){
+  transform: translateY(-50%) rotate(0deg);
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+.accordion-content p {
+  padding: 2rem;
+  color: var(--color-gray-400);
+}
+
+.accordion-content.open {
+  max-height: 30rem;
+}
+
+.accordion-title .icon.open {
+  transform: rotate(180deg);
+}

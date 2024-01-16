@@ -1,0 +1,20 @@
+.partners{
+  padding: 5rem;
+}
+.partners h2{
+  text-align: center;
+}
+.swiper-partners .partner-box{
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-partners .partner-box:hover img{
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.swiper-partners .partner-box img{
+  filter: grayscale(1);
+  width: calc(100% - 1rem);
+}

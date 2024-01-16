@@ -17,10 +17,10 @@ const Footer = () => {
             </Link>
             <Link href="tel:88998414763">(88) 9.9841-4763</Link>
             <div className="social-buttons">
-              <SocialButton socialIcon="/icon-linkedin.png" link="#" />
-              <SocialButton socialIcon="/icon-instagram.png" link="#" />
-              <SocialButton socialIcon="/icon-whatsapp.png" link="#" />
-              <SocialButton socialIcon="/icon-behance.png" link="#" />
+              <SocialButton icon="/icon-linkedin.png" link="#" />
+              <SocialButton icon="/icon-instagram.png" link="#" />
+              <SocialButton icon="/icon-whatsapp.png" link="#" />
+              <SocialButton icon="/icon-behance.png" link="#" />
             </div>
           </div>
           <div className="col-right">

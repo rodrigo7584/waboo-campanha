@@ -1,0 +1,38 @@
+.hero{
+  background: var(--color-gray-200);
+  padding-top: 5rem;
+}
+.hero .row{
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 1rem));
+  align-items: center;
+  gap: 2rem;
+}
+.hero p{
+  margin-bottom: 2rem;
+}
+.hero .col-left{
+  position: relative;
+}
+.hero .col-left .img-guy{
+  width: 100%;
+}
+.hero .col-left .img-graphic{
+  top: 0;
+  right: 0;
+  width: 20rem;
+  position: absolute;
+  filter: var(--shadow);
+  animation: 5s heroGraphic ease-in-out infinite;
+}
+@keyframes heroGraphic {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3rem, -1.5rem);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
