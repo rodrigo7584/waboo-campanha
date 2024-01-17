@@ -4,6 +4,8 @@
 @import url('./portfolio.css');
 @import url('./steps.css');
 @import url('./plans.css');
+@import url('./custom-site.css');
+@import url('./comments.css');
 /* THIS IS THE RAW CSS CODE REMEMBER TO CHANGE IN HTML LINK TO THIS CODE CAUSE THERE IS GETTING THE 
 MINIFIED VERSION */
 /* 
@@ -238,7 +240,8 @@ button {
   color: var(--color-black);
   font-weight: 500;
 }
-ul,li {
+ul,
+li {
   display: block;
   font-family: var(--font-roboto);
   font-size: 1.5rem;
@@ -277,6 +280,18 @@ ul,li {
 }
 .link-green {
   color: var(--color-green);
+}
+.title-risk {
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+.title-risk::before {
+  content: '';
+  position: absolute;
+  background-color: var(--color-green);
+  bottom: 0;
+  height: 0.4rem;
+  width: 15rem;
 }
 @media (max-width: 1400px) {
   .container {

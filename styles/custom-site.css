@@ -1,0 +1,66 @@
+.custom-site {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+.custom-site .row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 40% calc(60% - 2rem);
+  gap: 2rem;
+}
+.custom-site .btn-green {
+  margin-top: 3rem;
+}
+.custom-site .col-left {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.custom-site .col-left .img-graphic-1 {
+  position: absolute;
+  width: 19rem;
+  left: 5rem;
+  bottom: 0rem;
+  filter: var(--shadow);
+  z-index: 3;
+  animation: img-graphic-1 5s ease-in-out infinite;
+}
+.custom-site .col-left .img-graphic-2 {
+  position: absolute;
+  width: 20rem;
+  right: 5rem;
+  top: 0rem;
+  z-index: 2;
+  filter: var(--shadow);
+  animation: img-graphic-2 3s ease-in-out infinite;
+}
+.custom-site .col-left .guy-smiling {
+  width: 40rem;
+  position: relative;
+  z-index: 1;
+  filter: var(--shadow);
+}
+@keyframes img-graphic-1 {
+  0% {
+    transform: translate(0rem, 0rem);
+  }
+  50% {
+    transform: translate(3rem, -3rem);
+  }
+  100% {
+    transform: translate(0rem, 0rem);
+  }
+}
+@keyframes img-graphic-2 {
+  0% {
+    transform: translate(0rem, 0rem);
+  }
+  50% {
+    transform: translate(-3rem, 4rem);
+  }
+  100% {
+    transform: translate(0rem, 0rem);
+  }
+}

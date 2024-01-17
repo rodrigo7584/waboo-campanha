@@ -1,0 +1,50 @@
+.comments {
+  background: var(--color-gray-200);
+  padding: 5rem 0;
+}
+.comments h2 {
+  text-align: center;
+  grid-column: 1/3;
+}
+.comments .row {
+  display: grid;
+  grid-template-columns: 50% calc(50% - 5rem);
+  gap: 5rem;
+}
+
+.comments-box {
+  margin: 3rem;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  background: var(--color-white);
+  filter: var(--shadow);
+}
+.comments-box .comment-text {
+  margin-bottom: 2rem;
+}
+.comments-box .comment-info {
+  display: grid;
+  grid-template-columns: 1fr 10rem;
+}
+.comments-box .comments-icon {
+  width: 5rem;
+}
+.comments-box .comment-name {
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+.comments-box .comment-company {
+  font-weight: 400;
+}
+.swiper-comments .swiper-button-next,
+.swiper-comments .swiper-button-prev {
+  width: 3rem;
+  cursor: pointer;
+}
+.swiper-comments .swiper-button-next {
+  transform: rotate(180deg);
+  margin-left: 3rem;
+}
+.swiper-comments .swiper-button-prev {
+  margin-left: 1rem;
+}

@@ -206,9 +206,9 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-right">
-              <h2>Site Personalizado</h2>
+              <h2 className='title-risk'>Site Personalizado</h2>
               <p>Caso nenhum dos pacotes acima atenda completamente às suas necessidades, disponibilizamos uma equipe de especialistas em desenvolvimento web pronta para compreender as especificações do seu projeto. Entre em contato conosco, e nossa equipe agendará um dia e horário mais adequados para discutirmos detalhadamente as suas ideias e expectativas.</p>
-              <Link href="#">Entrar em contato</Link>
+              <Link href="#" className='btn-green'>Entrar em contato</Link>
             </div>
             <div className="col-left">
               <Image className="img-graphic-1" src={"/graphic.png"} width={281} height={208} quality={100} alt="" />
@@ -221,6 +221,7 @@ export default function Home() {
       <section className="comments">
         <div className="container">
           <div className="row">
+            <h2>Veja o que os clientes falam sobre nós!</h2>
             <div className="col-right">
               <SwiperComments/>
             </div>
