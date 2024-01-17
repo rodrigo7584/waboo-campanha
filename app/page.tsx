@@ -150,16 +150,53 @@ export default function Home() {
                 negócios</h5>
                 <ul className="list-plan">
                   <li>One page, landing page 
-                  ou página de vendas</li>
+                  ou página de vendas;</li>
                   <li>Layout exclusivo, editável
-                  e SEO otimizado</li>
+                  e SEO otimizado;</li>
                   <li>Links de interação;</li>
                   <li>Instalação no servidor;</li>
                   <li>Suporte de 30 dias.</li>
                 </ul>
                 <p className="payment-plan"><span>R$ 649,00 </span> no pix ou</p>
-                <p className="card-payment-plan">2X de R$ 349,95<span>no cartão</span></p>
-                <Link href="#">Criar meu site</Link>
+                <p className="card-payment-plan">2X de R$ 349,95<span> no cartão</span></p>
+                <Link href="#" className='btn-green'>Criar meu site</Link>
+              </div>
+              <div className="plan plan-spotlight">
+                <h4 className="title-plan">Business</h4>
+                <h5 className="subtitle-plan">Recursos avançados, 
+                perfeito para negócios
+                em crescimento </h5>
+                <ul className="list-plan">
+                  <li>Site institucional de até 5 
+                  páginas (sem blog);</li>
+                  <li>Layout exclusivo, editável
+                  e SEO otimizado;</li>
+                  <li>Links de interação;</li>
+                  <li>Instalação no servidor;</li>
+                  <li>Suporte de 30 dias.</li>
+                </ul>
+                <p className="payment-plan"><span>R$ 929,90 </span> no pix ou</p>
+                <p className="card-payment-plan">2X de R$ 499,95<span> no cartão</span></p>
+                <Link href="#" className='btn-green'>Criar meu site</Link>
+              </div>
+              <div className="plan">
+                <h4 className="title-plan">Enterprise</h4>
+                <h5 className="subtitle-plan">Tudo o que você 
+                precisa para se destacar 
+                na concorrência </h5>
+                <ul className="list-plan">
+                  <li>Site institucional de até 5 
+                  páginas;</li>
+                  <li>Blog Incluso;</li>
+                  <li>Layout exclusivo, editável
+                  e SEO otimizado;</li>
+                  <li>Links de interação;</li>
+                  <li>Instalação no servidor;</li>
+                  <li>Suporte de 30 dias.</li>
+                </ul>
+                <p className="payment-plan"><span>R$ 1.399,90 </span> no pix ou</p>
+                <p className="card-payment-plan">2X de R$ 749,95<span> no cartão</span></p>
+                <Link href="#" className='btn-green'>Criar meu site</Link>
               </div>
             </div>
           </div>

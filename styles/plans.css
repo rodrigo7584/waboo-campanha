@@ -1,0 +1,70 @@
+.plans{
+  padding: 5rem 0;
+}
+.plans h2,
+.plans h3{
+  text-align: center;
+}
+.plans .plans-box{
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.plans .plan{
+  width: 30rem;
+  border: 0.1rem solid var(--color-black);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.plans .plan h4{
+  font-size:3rem;
+}
+.plans .plan ul li{
+  position: relative;
+  padding-left: 3rem; 
+  margin-bottom: 1rem;
+}
+.plans .plan ul li::before {
+  content: ""; 
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('/icon-check.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 0;
+  top: 0.5rem;
+  margin-right: 10px; 
+}
+.plans .plan .payment-plan{
+  color: var(--color-gray-400);
+  font-weight: 400;
+  font-size: 2rem;
+}
+.plans .plan .payment-plan span{
+font-weight: 600;
+}
+.plans .plan .card-payment-plan{
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+.plans .plan .card-payment-plan span{
+  color: var(--color-gray-400);
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.plans .plan .btn-green{
+  margin-top: 2rem;
+ padding: 1rem;
+ width: 100%;
+ text-align: center;
+}
+
+.plans .plan.plan-spotlight {
+  background: var(--color-green);
+}
+.plans .plan.plan-spotlight .btn-green{
+  background-color: var(--color-white);
+}
