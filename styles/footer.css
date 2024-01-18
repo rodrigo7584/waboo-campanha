@@ -26,6 +26,13 @@ footer .social-buttons img {
   height: auto;
   width: 2rem;
 }
+footer h1 {
+  color: var(--color-white);
+  line-height: 1;
+}
+footer .celnumber {
+  color: var(--color-white);
+}
 footer p.copyright {
   color: var(--color-gray-400);
   font-weight: 500;

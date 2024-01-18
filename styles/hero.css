@@ -1,23 +1,23 @@
-.hero{
+.hero {
   background: var(--color-gray-200);
   padding-top: 5rem;
 }
-.hero .row{
+.hero .row {
   display: grid;
   grid-template-columns: repeat(2, calc(50% - 1rem));
   align-items: center;
   gap: 2rem;
 }
-.hero p{
+.hero p {
   margin-bottom: 2rem;
 }
-.hero .col-left{
+.hero .col-left {
   position: relative;
 }
-.hero .col-left .img-guy{
+.hero .col-left .img-guy {
   width: 100%;
 }
-.hero .col-left .img-graphic{
+.hero .col-left .img-graphic {
   top: 0;
   right: 0;
   width: 20rem;

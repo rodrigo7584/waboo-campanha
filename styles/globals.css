@@ -6,6 +6,10 @@
 @import url('./plans.css');
 @import url('./custom-site.css');
 @import url('./comments.css');
+@import url('./faq.css');
+@import url('./warrant.css');
+@import url('./doubts.css');
+@import url('./contact');
 /* THIS IS THE RAW CSS CODE REMEMBER TO CHANGE IN HTML LINK TO THIS CODE CAUSE THERE IS GETTING THE 
 MINIFIED VERSION */
 /* 
@@ -239,6 +243,10 @@ button {
   line-height: 1.7;
   color: var(--color-black);
   font-weight: 500;
+  border: none;
+}
+button {
+  cursor: pointer;
 }
 ul,
 li {

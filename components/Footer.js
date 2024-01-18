@@ -15,7 +15,7 @@ const Footer = () => {
             <Link href="mailto:waboocreative@gmail.com" className="link-green">
               waboocreative@gmail.com
             </Link>
-            <Link href="tel:88998414763">(88) 9.9841-4763</Link>
+            <Link href="tel:88998414763" className='celnumber'>(88) 9.9841-4763</Link>
             <div className="social-buttons">
               <SocialButton icon="/icon-linkedin.png" link="#" />
               <SocialButton icon="/icon-instagram.png" link="#" />

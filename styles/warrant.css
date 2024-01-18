@@ -1,0 +1,19 @@
+.warrant {
+  padding: 5rem 0;
+  background-image: url('../public/background.png');
+  background-size: 100% 100%;
+}
+.warrant .row {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+}
+.warrant .col {
+  grid-column: 2/3;
+}
+.warrant h2 {
+  color: var(--color-white);
+}
+.warrant p {
+  font-weight: 300;
+  color: var(--color-white);
+}

@@ -1,6 +1,3 @@
-.accordion {
-  margin-bottom: 3rem;
-}
 .accordion-title {
   display: flex;
   align-items: center;
@@ -19,12 +16,12 @@
 .accordion-title.open {
   background: var(--color-green);
 }
-.accordion-title .accordion-icon{
+.accordion-title .accordion-icon {
   height: 3rem;
   width: 3rem;
   position: relative;
 }
-.accordion-title .accordion-icon div{
+.accordion-title .accordion-icon div {
   position: absolute;
   height: 0.3rem;
   width: 100%;
@@ -32,18 +29,18 @@
   background: var(--color-green);
   transition: 0.3s ease;
 }
-.accordion-title .accordion-icon div:nth-child(1){
+.accordion-title .accordion-icon div:nth-child(1) {
   top: 50%;
   transform: translateY(-50%);
 }
-.accordion-title .accordion-icon div:nth-child(2){
+.accordion-title .accordion-icon div:nth-child(2) {
   top: 50%;
   transform: translateY(-50%) rotate(90deg);
 }
-.accordion-title .accordion-icon.open div{
+.accordion-title .accordion-icon.open div {
   background: var(--color-white);
 }
-.accordion-title .accordion-icon.open div:nth-child(2){
+.accordion-title .accordion-icon.open div:nth-child(2) {
   transform: translateY(-50%) rotate(0deg);
 }
 .accordion-content {

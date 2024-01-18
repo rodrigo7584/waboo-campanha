@@ -1,0 +1,18 @@
+.faq {
+  background: var(--color-gray-200);
+  padding: 3rem 0 7rem 0;
+}
+.faq h2 {
+  text-align: center;
+}
+.faq .accordions {
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 2rem;
+  align-items: flex-start;
+}
+.faq .accordion {
+  width: calc(50% - 1rem);
+}

@@ -226,11 +226,12 @@ export default function Home() {
               <SwiperComments/>
             </div>
             <div className="col-left">
-              <Image className="img-etrilhas" src={"/icon-company-comments-5.png"} width={149} height={149} quality={100} alt="" />
-              <Image className="img-lav" src={"/icon-company-comments-3.png"} width={98} height={98} quality={100} alt="" />
-              <Image className="img-expertagro" src={"/icon-company-comments-2.png"} width={161} height={161} quality={100} alt="" />
               <Image className="img-lokal" src={"/icon-company-comments-1.png"} width={139} height={139} quality={100} alt="" />
-              <Image className="img-ryze" src={"/icon-company-comments-4.png"} width={197} height={197} quality={100} alt="" />
+              <Image className="img-expert" src={"/icon-company-comments-2.png"} width={161} height={161} quality={100} alt="" />
+              <Image className="img-lav" src={"/icon-company-comments-3.png"} width={98} height={98} quality={100} alt="" />
+              <Image className="img-conecta" src={"/icon-company-comments-4.png"} width={197} height={197} quality={100} alt="" />
+              <Image className="img-etrilhas" src={"/icon-company-comments-5.png"} width={149} height={149} quality={100} alt="" />
+              <Image className="img-ryze" src={"/icon-company-comments-6.png"} width={122} height={122} quality={100} alt="" />
             </div>
           </div>
         </div>
@@ -240,23 +241,88 @@ export default function Home() {
           <div className="row">
             <h2>FAQ</h2>
             <div className="accordions">
-            <Accordion
-                title="Quem é a empresa responsável pelo RyzePay?"
+              <Accordion
+                title="Preciso ter CNPJ para criar um site?"
                 content="
-              O RyzePay é uma solução da Ryze Capital, uma empresa de
-              tecnologia autorizada e homologada para participar do
-              sistema nacional de recebíveis. A Ryze Capital segue
-              rigorosamente o regulamento do BACEN, a LGPD, além de adotar
-              as melhores práticas de segurança e proteção da informação."
+                Lorem ipsum dolor sit amet consectetur, adipisicing 
+                elit. Necessitatibus maxime veritatis similique, 
+                accusamus repudiandae incidunt cupiditate, magni 
+                voluptatem officia nam, natus laborum quas porro 
+                doloremque!"
               />
               <Accordion
-                title="Quem é a empresa responsável pelo RyzePay?"
+                title="Vocês criam sites para todos os segmentos?"
                 content="
-              O RyzePay é uma solução da Ryze Capital, uma empresa de
-              tecnologia autorizada e homologada para participar do
-              sistema nacional de recebíveis. A Ryze Capital segue
-              rigorosamente o regulamento do BACEN, a LGPD, além de adotar
-              as melhores práticas de segurança e proteção da informação."
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
+              />
+              <Accordion
+                title="O domínio que eu escolher e vocês registrarem será meu ou da Waboo?"
+                content="
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
+              />
+              <Accordion
+                title="Após a criação do site, eu terei que pagar alguma mensalidade?"
+                content="
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
+              />
+              <Accordion
+                title="Quantas alterações posso solicitar em meu site antes de tê-lo aprovado?"
+                content="
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
+              />
+              <Accordion
+                title="Como saberei se meu site está sendo bem acessado?"
+                content="
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
+              />
+              <Accordion
+                title="Quais são os tipos de site criados pela Waboo?"
+                content="
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
+              />
+              <Accordion
+                title="Quantas páginas posso ter no meu site?"
+                content="
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
+              />
+  
+              <Accordion
+                title="Após aprovação, ainda poderei fazer alterações 
+                no meu site?"
+                content="
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
+              />
+              <Accordion
+                title="Posso ter um site multilíngue?"
+                content="
+                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
+                não atendemos os seguintes segmentos: Pornografia, prostituição, 
+                venda de armas de fogo, venda de anabolizantes e remédios 
+                controlados, apostas e sorteios."
               />
             </div>
           </div>
@@ -266,7 +332,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h2>Garantia de satisfação</h2>
+              <h2 className='title-risk'>Garantia de satisfação</h2>
               <p>Por confiar no nosso trabalho e em nosso processo de criação, a Waboo preza, antes de tudo, pela satisfação de seus clientes. Após a criação do layout, caso você não se sinta satisfeito(a) com o site, devolvemos o valor investido.*</p>
             </div>
           </div>
@@ -276,7 +342,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-right">
-              <h2>Ainda está com dúvida 
+              <h2 className='title-risk'>Ainda está com dúvida 
               se precisa de um site? </h2>
               <p>Analise as perguntas a seguir e responda com total sinceridade. Caso marque uma ou mais alternativas, 
               sem dúvidas você precisa de um site.</p>
@@ -295,8 +361,8 @@ export default function Home() {
         </div>
       </section>
       <section className="contact">
-        <h2></h2>
-        <h3></h3>
+        <h2>Transforme sua presença online hoje mesmo!</h2>
+        <h3>Consulte-nos para um site que vai além das expectativas, que atraia mais clientes e gere mais receitas para o seu negóclio.</h3>
         <form action="#">
           <input type="text" placeholder='Informe seu nome' />
           <input type="text" placeholder='Informe seu número'/>
