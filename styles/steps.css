@@ -9,6 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
   gap: 4rem;
 }
 .numbered-block {
@@ -18,6 +19,7 @@
   width: 30rem;
   border-radius: 2rem;
   position: relative;
+  margin-left: 2.5rem;
 }
 .numbered-block .icon-numered-block {
   position: absolute;
@@ -39,4 +41,9 @@
 .numbered-block p {
   font-size: 1.3rem;
   color: var(--color-gray-400);
+}
+@media (max-width: 576px) {
+.steps .blocks {
+  padding: 3rem 0 0 0;
+}
 }

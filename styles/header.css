@@ -6,9 +6,10 @@ header.menu {
   right: 0;
   width: 100%;
   background: var(--color-gray-300);
-  padding: 2.5rem;
+  padding: 1rem;
   z-index: 10;
   box-sizing: border-box;
+  position: fixed;
 }
 header.menu .row {
   display: flex;
@@ -30,6 +31,22 @@ header.menu nav li a {
   font-size: 1.5rem;
   color: var(--black);
   padding: 0.5rem;
+  position: relative;
+}
+header.menu nav li a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.3rem;
+  background: var(--color-green);
+  left: 0;
+  bottom: 0rem;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.3s ease-in-out;
+}
+header.menu nav li a:hover::before{
+  transform: scaleX(1);
 }
 header.menu nav li a.btn-green {
   padding: 1.5rem 3rem;
@@ -78,7 +95,7 @@ END HEADER
     justify-content: flex-start;
     position: absolute;
     width: 100%;
-    top: 10.2rem;
+    top: 7.89rem;
     right: 0;
     background: var(--color-gray-100);
     height: 0;
@@ -88,7 +105,7 @@ END HEADER
     z-index: 99;
   }
   header.menu nav.active ul {
-    height: calc(100vh - 10.2rem);
+    height: calc(100vh - 7.89rem);
     visibility: visible;
   }
   header.menu nav li a {
@@ -100,23 +117,17 @@ END HEADER
     height: 4rem;
   }
   header.menu nav.active ul {
-    height: calc(100vh - 9.2rem);
+    height: calc(100vh - 6.89rem);
   }
   header.menu nav ul {
-    top: 9.2rem;
+    top: 6.89rem;
   }
 }
 @media (max-width: 576px) {
   header.menu {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
   }
   header.menu a.logo img {
     height: 4rem;
-  }
-  header.menu nav ul {
-    top: 7.2rem;
-  }
-  header.menu nav.active ul {
-    height: calc(100vh - 7.2rem);
   }
 }

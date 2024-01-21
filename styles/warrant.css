@@ -17,3 +17,16 @@
   font-weight: 300;
   color: var(--color-white);
 }
+
+@media (max-width: 768px) {
+  .warrant {
+    background-image: none;
+    background:linear-gradient(90deg, var(--color-gray-500), var(--color-gray-400));
+  }
+  .warrant .col {
+    grid-column: auto;
+  }
+.warrant .row {
+  grid-template-columns: 100%;
+}
+}

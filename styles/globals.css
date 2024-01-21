@@ -314,6 +314,7 @@ li {
 @media (max-width: 992px) {
   .container {
     max-width: 768px;
+    padding: 0 1rem;
   }
 }
 @media (max-width: 768px) {
@@ -327,8 +328,11 @@ li {
 @media (max-width: 576px) {
   .container {
     max-width: 400px;
-    padding: 0 1rem;
+  }
+    h1 {
+    font-size: 2rem;
   }
 }
 @media (max-width: 400px) {
+
 }

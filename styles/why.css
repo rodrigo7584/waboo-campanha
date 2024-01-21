@@ -38,3 +38,16 @@
   font-size: 1.5rem;
   color: var(--color-gray-400);
 }
+@media (max-width: 768px) {
+  .why .col {
+    grid-template-columns: 100%;
+  }
+}
+@media (max-width: 576px) {
+.why {
+    padding: 5rem 0;
+  }
+.why .blocks {
+    padding-top: 5rem;
+}
+}

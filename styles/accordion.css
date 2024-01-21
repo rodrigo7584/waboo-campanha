@@ -1,5 +1,7 @@
 .accordion-title {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3rem;
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -59,4 +61,13 @@
 
 .accordion-title .icon.open {
   transform: rotate(180deg);
+}
+@media (max-width: 576px) {
+  .accordion-title {
+    grid-template-columns: 1fr 1.5rem;
+  }
+  .accordion-title .accordion-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
 }

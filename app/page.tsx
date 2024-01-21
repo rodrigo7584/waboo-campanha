@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
     <main>
-      <section className='hero'>
+      <section className='hero' id='hero'>
         <div className="container">
           <div className="row">
             <div className="col-right">
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="partners">
+      <section className="partners" >
         <div className="container">
           <div className="row">
             <div className="col">
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="why">
+      <section className="why" id='waboo'>
         <div className="container">
           <div className="row">
             <div className="col">
@@ -85,7 +85,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="portfolio">
+      <section className="portfolio" id='portifolio'>
         <div className="container">
           <div className="row">
             <h2>Portifólio</h2>
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="plans">
+      <section className="plans" id='planos'>
         <div className="container">
           <div className="row">
             <h2>Pacotes</h2>
@@ -218,7 +218,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="comments">
+      <section className="comments" id='clientes'>
         <div className="container">
           <div className="row">
             <h2>Veja o que os clientes falam sobre nós!</h2>
@@ -236,7 +236,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='faq'>
+      <section className='faq' id='faq'>
         <div className="container">
           <div className="row">
             <h2>FAQ</h2>
@@ -361,13 +361,17 @@ export default function Home() {
         </div>
       </section>
       <section className="contact">
-        <h2>Transforme sua presença online hoje mesmo!</h2>
-        <h3>Consulte-nos para um site que vai além das expectativas, que atraia mais clientes e gere mais receitas para o seu negóclio.</h3>
-        <form action="#">
-          <input type="text" placeholder='Informe seu nome' />
-          <input type="text" placeholder='Informe seu número'/>
-          <button type='submit' className='btn-green'>Enviar</button>
-        </form>
+        <div className="container">
+          <div className="row">
+             <h2>Transforme sua presença online hoje mesmo!</h2>
+            <h3>Consulte-nos para um site que vai além das expectativas, que atraia mais clientes e gere mais receitas para o seu negóclio.</h3>
+            <form action="#">
+              <input type="text" placeholder='Informe seu nome' />
+              <input type="text" placeholder='Informe seu número'/>
+              <button type='submit' className='btn-green'>Enviar</button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
   </>)
