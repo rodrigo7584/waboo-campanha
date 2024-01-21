@@ -45,7 +45,8 @@ header.menu nav li a::before{
   transform-origin: left;
   transition: 0.3s ease-in-out;
 }
-header.menu nav li a:hover::before{
+header.menu nav li a:hover::before,
+header.menu nav li a.active::before{
   transform: scaleX(1);
 }
 header.menu nav li a.btn-green {

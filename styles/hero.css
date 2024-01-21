@@ -1,7 +1,6 @@
 .hero {
-  margin-top: 7.89rem;
   background: var(--color-gray-200);
-  padding-top: 5rem;
+  padding-top: calc(5rem + 7.89rem);
 }
 .hero .row {
   display: grid;
@@ -47,7 +46,7 @@
 }
 @media (max-width: 768px) {
   .hero {
-    margin-top: 6.89rem;
+    padding-top: calc(5rem + 6.89rem);
   }
   .hero .row {
     gap: 5rem;

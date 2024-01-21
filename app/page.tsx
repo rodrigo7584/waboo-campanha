@@ -7,6 +7,7 @@ import SwiperPortfolio from '../components/SwiperPortfolio'
 import NumberedBlock from '../components/NumberedBlock'
 import SwiperComments from '../components/SwiperComments'
 import Accordion from '../components/Accordion'
+import EnviarEmail from '../components/EnviarEmail'
 
 export default function Home() {
   return (
@@ -365,11 +366,7 @@ export default function Home() {
           <div className="row">
              <h2>Transforme sua presença online hoje mesmo!</h2>
             <h3>Consulte-nos para um site que vai além das expectativas, que atraia mais clientes e gere mais receitas para o seu negóclio.</h3>
-            <form action="#">
-              <input type="text" placeholder='Informe seu nome' />
-              <input type="text" placeholder='Informe seu número'/>
-              <button type='submit' className='btn-green'>Enviar</button>
-            </form>
+           <EnviarEmail/>
           </div>
         </div>
       </section>
