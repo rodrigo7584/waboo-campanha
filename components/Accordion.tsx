@@ -3,7 +3,11 @@ import { useState } from 'react'
 
 import '../styles/accordion.css'
 
-const Accordion = ({ title, content }) => {
+interface AccordionProps {
+  title: string;
+  content: string;
+}
+const Accordion = ({ title, content }: AccordionProps) => {
   const [isExpanded, setIsExpanded] = useState(false)
 
   const toggleAccordion = () => {
@@ -12,10 +16,7 @@ const Accordion = ({ title, content }) => {
 
   return (
     <div className="accordion">
-      <button
-        className={`accordion-title ${isExpanded ? 'open' : ''}`}
-        onClick={toggleAccordion}
-      >
+      <button className={`accordion-title ${isExpanded ? 'open' : ''}`} onClick={toggleAccordion}>
         {title}
         <div className={`accordion-icon ${isExpanded ? 'open' : ''}`}>
           <div></div>

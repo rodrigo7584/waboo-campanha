@@ -1,4 +1,10 @@
-const NumberedBlock = ({ number, title, text }) => {
+interface NumberedBlockProps {
+  number: string;
+  title: string;
+  text: string;
+}
+
+const NumberedBlock = ({ number, title, text }: NumberedBlockProps) => {
   return (
     <div className="numbered-block">
       <div className="icon-numered-block">{number}</div>

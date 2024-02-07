@@ -1,6 +1,12 @@
 import Image from 'next/image'
 
-const SpotlightBlock = ({ icon, title, text }) => {
+interface SpotlightBlockProps{
+  icon: string;
+  title: string;
+  text: string;
+}
+
+const SpotlightBlock = ({ icon, title, text }:SpotlightBlockProps) => {
   return (
     <div className="spotlight-block">
       <Image
