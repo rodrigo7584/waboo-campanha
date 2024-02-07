@@ -12,15 +12,29 @@ const Footer = () => {
               Vamos <br />
               conversar!
             </h1>
-            <Link href="mailto:waboocreative@gmail.com" className="link-green">
-              waboocreative@gmail.com
+            <Link href="mailto:contato@waboo.com.br" className="link-green">
+              contato@waboo.com.br
             </Link>
-            <Link href="tel:88998414763" className='celnumber'>(88) 9.9841-4763</Link>
+            <Link href="tel:11942042774" className="celnumber">
+              (11) 9.4204-2774
+            </Link>
             <div className="social-buttons">
-              <SocialButton icon="/icon-linkedin.png" link="#" />
-              <SocialButton icon="/icon-instagram.png" link="#" />
-              <SocialButton icon="/icon-whatsapp.png" link="#" />
-              <SocialButton icon="/icon-behance.png" link="#" />
+              <SocialButton
+                icon="/icon-linkedin.png"
+                link="https://www.linkedin.com/company/waboo-creative/"
+              />
+              <SocialButton
+                icon="/icon-instagram.png"
+                link="https://www.instagram.com/waboocreative"
+              />
+              <SocialButton
+                icon="/icon-whatsapp.png"
+                link="https://api.whatsapp.com/send?phone=5511942042774"
+              />
+              <SocialButton
+                icon="/icon-behance.png"
+                link="https://www.behance.net/waboocreative"
+              />
             </div>
           </div>
           <div className="col-right">
@@ -34,7 +48,7 @@ const Footer = () => {
             </ul> */}
             <p className="copyright">
               © Copyright 2023. Waboo Creative. <br />
-              Todos os direitos reservados. Ceará, Brasil.
+              Todos os direitos reservados. Brasil.
             </p>
           </div>
         </div>

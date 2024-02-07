@@ -11,9 +11,24 @@ const swiperDataComments = [
     company: 'Medconex'
   },
   {
-    text: '“Fiquei impressionado com a agilidade, o atendimento da Ana foi extraordinário. Em poucos minutos ela entendeu a complexidade  do nosso projeto e executou com maestria. Ficamos muito felizes.”',
-    name: 'Ronnie',
-    company: 'Med'
+    text: '“A Waboo superou nossas expectativas! A equipe realmente capturou a essência da nossa marca e desempenhou um excelente trabalho.”',
+    name: 'Diogo Costa',
+    company: 'YDB Logística'
+  },
+  {
+    text: '“Amei a experiência com a Waboo! Um trabalho de excelência! Faremos muitos outros projetos juntos com certeza. Quero parabenizar a Ana pelo ótimo atendimento e profissionalismo. Ficamos felizes do começo ao fim do projeto.”',
+    name: 'Márcia Rocha',
+    company: 'Laticínios Delqualho'
+  },
+  {
+    text: '“Estamos trabalhando com eles há alguns meses, é um grupo de profissionais que vem atendendo todas as nossas expectativas. São atenciosos e muito responsáveis.”',
+    name: 'Fabiana Madeira',
+    company: 'Grupo Marafão.'
+  },
+  {
+    text: '“Excelente experiência! Os profissionais são competentes e comprometidos.”',
+    name: 'Lara Sogorski',
+    company: 'Fábrika Lúdika'
   }
 ]
 
