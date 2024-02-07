@@ -1,12 +1,13 @@
 'use client'
-// Importe o useState e useEffect se ainda não estiverem importados
 import { useState, useEffect } from 'react'
 
-const EnviarEmail = () => {
-  const [formData, setFormData] = useState({ name: '', number: '' })
-  const [message, setMessage] = useState('') // Estado para armazenar a mensagem
+interface EnviarEmailProps {}
 
-  const handleSubmit = async e => {
+const EnviarEmail: React.FC<EnviarEmailProps> = () => {
+  const [formData, setFormData] = useState({ name: '', number: '' })
+  const [message, setMessage] = useState('') 
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
     try {
@@ -25,22 +26,21 @@ const EnviarEmail = () => {
       } else {
         setMessage(`Erro ao enviar mensagem: ${data.message}`)
       }
-    } catch (error) {
+    } catch (error:any) {
       setMessage('Erro na solicitação: ' + error.message)
     }
   }
 
-  const handleChange = e => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
   useEffect(() => {
-    // Limpa a mensagem após 3 segundos
     const timeoutId = setTimeout(() => {
       setMessage('')
     }, 3000)
 
-    return () => clearTimeout(timeoutId) // Limpa o timeout ao desmontar o componente
+    return () => clearTimeout(timeoutId)
   }, [message])
 
   return (
