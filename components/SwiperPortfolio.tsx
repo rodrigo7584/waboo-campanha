@@ -7,17 +7,17 @@ import { Navigation } from 'swiper/modules'
 import Image from 'next/image'
 
 const swiperDataPortfolio = [
-  { src: '/portfolio-1.png', textLink: 'BR Garantidora de Crédito', link: '#' },
-  { src: '/portfolio-2.png', textLink: 'Ryze Capital', link: '#' },
-  { src: '/portfolio-grk.png', textLink: 'GRK', link: '#' },
-  { src: '/portfolio-conectapag.png', textLink: 'ConectaPag', link: '#' },
-  { src: '/portfolio-movidamed.png', textLink: 'Movida Med', link: '#' },
-  { src: '/portfolio-kryptex.png', textLink: 'Kryptex', link: '#' },
+  { src: '/portfolio-1.png', textLink: 'BR Garantidora de Crédito', link: 'https://brgarantidora.com.br' },
+  { src: '/portfolio-2.png', textLink: 'Ryze Capital', link: 'https://ryze.capital' },
+  { src: '/portfolio-grk.png', textLink: 'ABC Pack', link: 'https://abcpack.vercel.app/' },
+  { src: '/portfolio-conectapag.png', textLink: 'ConectaPag', link: 'https://projetoswaboo.com.br/waboo_testes/conectapag/' },
+  { src: '/portfolio-movidamed.png', textLink: 'Movida Med', link: 'https://movidamed.com.br/' },
+  { src: '/portfolio-kryptex.png', textLink: 'Kryptex', link: 'https://projetoswaboo.com.br/waboo_testes/krype/' },
   { src: '/portfolio-telma.png', textLink: 'Telma', link: '#' },
   { src: '/portfolio-1daybot.png', textLink: '1DayBot', link: '#' },
   { src: '/portfolio-conectasaude.png', textLink: 'Conecta Saúde', link: '#' },
   { src: '/portfolio-bullbebtc.png', textLink: 'BullBeBTC', link: '#' },
-  { src: '/portfolio-ryze.png', textLink: 'Ryze 2', link: '#' },
+  { src: '/portfolio-ryze.png', textLink: 'Ryze 2', link: 'https://ryze.capital' },
   { src: '/portfolio-9xminer.png', textLink: '9x Miner', link: '#' }
 ]
 
@@ -63,7 +63,7 @@ const SwiperPortfolio = () => {
                 quality={100}
                 alt="print of portfolio's sites"
               />
-              <Link href={slide.link} className="btn-border-black">
+              <Link href={slide.link} target='_blank' className="btn-border-black">
                 {slide.textLink}
               </Link>
             </div>

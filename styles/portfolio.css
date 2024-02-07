@@ -10,7 +10,7 @@
   position: relative;
   display: grid;
   align-items: center;
-  grid-template-columns: 4.5rem calc(100% - 6rem) 4.5rem;
+  grid-template-columns: 4.5rem calc(100% - 9rem) 4.5rem;
   padding: 5rem 0;
 }
 .swiper-portfolio .swiper {

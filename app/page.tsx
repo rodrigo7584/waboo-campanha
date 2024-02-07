@@ -242,52 +242,27 @@ export default function Home() {
             <div className="accordions">
               <Accordion
                 title="Preciso ter CNPJ para criar um site?"
-                content="
-                Lorem ipsum dolor sit amet consectetur, adipisicing 
-                elit. Necessitatibus maxime veritatis similique, 
-                accusamus repudiandae incidunt cupiditate, magni 
-                voluptatem officia nam, natus laborum quas porro 
-                doloremque!"
+                content="Não. Você não precisa ter CNPJ para ter um site. Você pode também tê-lo como Pessoa Física utilizando o seu CPF."
               />
               <Accordion
-                title="Vocês criam sites para todos os segmentos?"
-                content="
-                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
-                não atendemos os seguintes segmentos: Pornografia, prostituição, 
-                venda de armas de fogo, venda de anabolizantes e remédios 
-                controlados, apostas e sorteios."
+                title="Quais são os tipos de site criados pela Waboo?"
+                content="Fazemos Landing Pages, One Pages, Institucionais, Lojas Virtuais    (E-commerce), Portais de Notícias, Blogs, Portais de imóveis e veículos."
               />
               <Accordion
                 title="O domínio que eu escolher e vocês registrarem será meu ou da Waboo?"
-                content="
-                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
-                não atendemos os seguintes segmentos: Pornografia, prostituição, 
-                venda de armas de fogo, venda de anabolizantes e remédios 
-                controlados, apostas e sorteios."
-              />
-              <Accordion
-                title="Após a criação do site, eu terei que pagar alguma mensalidade?"
-                content="
-                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
-                não atendemos os seguintes segmentos: Pornografia, prostituição, 
-                venda de armas de fogo, venda de anabolizantes e remédios 
-                controlados, apostas e sorteios."
+                content="O domínio é seu. Sempre registramos os domínios em nome do cliente. Você poderá utilizá-lo em qualquer site que venha fazer no futuro, mesmo que seja com outra empresa."
               />
               <Accordion
                 title="Quantas alterações posso solicitar em meu site antes de tê-lo aprovado?"
-                content="
-                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
-                não atendemos os seguintes segmentos: Pornografia, prostituição, 
-                venda de armas de fogo, venda de anabolizantes e remédios 
-                controlados, apostas e sorteios."
+                content="Você poderá solicitar até 3 alterações na fase de criação do layout, para que o projeto reflita exatamente o que deseja."
               />
               <Accordion
-                title="Como saberei se meu site está sendo bem acessado?"
-                content="
-                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
-                não atendemos os seguintes segmentos: Pornografia, prostituição, 
-                venda de armas de fogo, venda de anabolizantes e remédios 
-                controlados, apostas e sorteios."
+                title=" Após aprovação, ainda poderei fazer alterações no meu site?"
+                content="Sim. Após a aprovação você receberá um treinamento e o acesso ao CMS (editor do site) para poder realizar atualizações em seu site. Ainda assim, poderá entrar em contato conosco sempre que precisar de suporte para utilização do editor."
+              />
+              <Accordion
+                title="Vocês criam sites para todos os segmentos?"
+                content="Sim, Já criamos praticamente para todo o tipo de segmento, porém não atendemos os seguintes segmentos: Pornografia, prostituição, venda de armas de fogo, venda de anabolizantes e remédios controlados, apostas e sorteios."
               />
               <Accordion
                 title="Quais são os tipos de site criados pela Waboo?"
@@ -299,29 +274,20 @@ export default function Home() {
               />
               <Accordion
                 title="Quantas páginas posso ter no meu site?"
-                content="
-                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
-                não atendemos os seguintes segmentos: Pornografia, prostituição, 
-                venda de armas de fogo, venda de anabolizantes e remédios 
-                controlados, apostas e sorteios."
+                content="Seu site poderá ter ilimitadas páginas, porém a Waboo criará a quantidade de páginas de acordo com o plano contratado."
               />
   
               <Accordion
-                title="Após aprovação, ainda poderei fazer alterações 
-                no meu site?"
-                content="
-                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
-                não atendemos os seguintes segmentos: Pornografia, prostituição, 
-                venda de armas de fogo, venda de anabolizantes e remédios 
-                controlados, apostas e sorteios."
+                title="Posso ter um site multilíngue?"
+                content="Sim. Todos os sites criados pela Waboo possuem integração com a ferramenta do Google Tradutor, onde você precisa ter apenas o texto em uma língua e as demais são traduzidas automaticamente pela ferramenta. "
               />
               <Accordion
-                title="Posso ter um site multilíngue?"
-                content="
-                Sim, Já criamos praticamente para todo o tipo de segmento, porém 
-                não atendemos os seguintes segmentos: Pornografia, prostituição, 
-                venda de armas de fogo, venda de anabolizantes e remédios 
-                controlados, apostas e sorteios."
+                title="Após a criação do site, eu terei que pagar alguma mensalidade?"
+                content="Todo site para se manter online precisa de serviços que geram custos recorrentes, como o registro de domínio e a hospedagem. Nenhum site funciona sem estes serviços. Mas não se preocupe que esses custos não são elevados, não chegando nem a R$ 30,00/mês. Ao contratar alguns dos nossos planos você ganha uma consultoria sobre como contratar esses serviços e 30 dias de suporte para qualquer problema ou dúvida que venha a ter."
+              />
+              <Accordion
+                title="Como saberei se meu site está sendo bem acessado?"
+                content="O site já vem integrado com a ferramenta Google Analytics que permite conhecer em tempo real todos os acessos de seu site. Com ela é possível monitorar o perfil de quem acessa seu site, páginas mais acessadas, conversões, dispositivos, cidades e outros dados."
               />
             </div>
           </div>

@@ -19,5 +19,15 @@
   font-family: var(--font-roboto);
   font-size: 1.5rem;
   border-radius: 0.5rem;
-  width: 30rem;
+  width: 34rem;
+}
+.contact form textarea {
+  border: none;
+  padding: 1.5rem;
+  font-family: var(--font-roboto);
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  width: 34rem;
+  resize: none;
+  height: 20rem;
 }
