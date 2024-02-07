@@ -22,6 +22,12 @@ const Header = () => {
 
     btnMobile.addEventListener('click', toggleMenu)
 
+    const btnsMenu = document.querySelectorAll('.menu .menu-item')
+
+    btnsMenu.forEach(btn => {
+      btn.addEventListener('click', toggleMenu)
+    })
+
     // Adiciona um ouvinte de rolagem à janela
     const handleScroll = () => {
       const scrollPosition = window.scrollY
@@ -57,14 +63,10 @@ const Header = () => {
       <div className="container">
         <div className="row">
           <Link href="/" className="logo">
-            <Image src={logo} width={189} height={53} quality={100} alt="" />
+            <Image src={logo} width={189} height={53} quality={100} alt="company logo" />
           </Link>
           <nav className={isMenuOpen ? 'active' : ''}>
-            <button
-              className={
-                isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'
-              }
-            >
+            <button className={isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'}>
               <div></div>
               <div></div>
               <div></div>

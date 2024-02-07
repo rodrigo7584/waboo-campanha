@@ -9,7 +9,16 @@ import Image from 'next/image'
 const swiperDataPortfolio = [
   { src: '/portfolio-1.png', textLink: 'BR Garantidora de Crédito', link: '#' },
   { src: '/portfolio-2.png', textLink: 'Ryze Capital', link: '#' },
-  { src: '/portfolio-3.png', textLink: 'Venko', link: '#' }
+  { src: '/portfolio-grk.png', textLink: 'GRK', link: '#' },
+  { src: '/portfolio-conectapag.png', textLink: 'ConectaPag', link: '#' },
+  { src: '/portfolio-movidamed.png', textLink: 'Movida Med', link: '#' },
+  { src: '/portfolio-kryptex.png', textLink: 'Kryptex', link: '#' },
+  { src: '/portfolio-telma.png', textLink: 'Telma', link: '#' },
+  { src: '/portfolio-1daybot.png', textLink: '1DayBot', link: '#' },
+  { src: '/portfolio-conectasaude.png', textLink: 'Conecta Saúde', link: '#' },
+  { src: '/portfolio-bullbebtc.png', textLink: 'BullBeBTC', link: '#' },
+  { src: '/portfolio-ryze.png', textLink: 'Ryze 2', link: '#' },
+  { src: '/portfolio-9xminer.png', textLink: '9x Miner', link: '#' }
 ]
 
 const SwiperPortfolio = () => {
@@ -21,13 +30,14 @@ const SwiperPortfolio = () => {
         width={36}
         height={36}
         quality={100}
-        alt=""
+        alt="button next"
       />
       <Swiper
         navigation={{
-          prevEl: '.swiper-portfolio .swiper-button-prev',
-          nextEl: '.swiper-portfolio .swiper-button-next'
+          prevEl: '.swiper-portfolio .swiper-button-next',
+          nextEl: '.swiper-portfolio .swiper-button-prev'
         }}
+        loop={true}
         modules={[Navigation]}
         slidesPerView={1}
         breakpoints={{
@@ -51,7 +61,7 @@ const SwiperPortfolio = () => {
                 width={417}
                 height={495}
                 quality={100}
-                alt=""
+                alt="print of portfolio's sites"
               />
               <Link href={slide.link} className="btn-border-black">
                 {slide.textLink}
@@ -66,7 +76,7 @@ const SwiperPortfolio = () => {
         width={36}
         height={36}
         quality={100}
-        alt=""
+        alt="button prev"
       />
     </div>
   )

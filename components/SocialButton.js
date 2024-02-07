@@ -10,7 +10,7 @@ const SocialButton = ({ icon, link }) => {
         width={20}
         height={20}
         quality={100}
-        alt={`icon-${icon}`}
+        alt={`icon ${icon}`}
       />
     </Link>
   )

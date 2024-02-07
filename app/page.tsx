@@ -24,13 +24,13 @@ export default function Home() {
                 na Waboo criamos sites de alto nível, capazes de ampliar sua base 
                 de clientes, impulsionar suas vendas e maximizar os lucros do seu negócio. 
               </p>
-              <Link href="#" className="btn-green">
+              <Link target='_blank' href="https://api.whatsapp.com/send?phone=5511942042774" className="btn-green">
                 Quero ter mais resultados
               </Link>
             </div>
             <div className="col-left">
-              <Image className="img-guy" src={"/guy-photo.png"} width={740} height={843} quality={100} alt="" />
-              <Image className='img-graphic' src={"/graphic.png"} width={280} height={208} quality={100} alt="" />
+              <Image className="img-guy" src={"/guy-photo.png"} width={740} height={843} quality={100} alt="a guy wearing classes and smilling" />
+              <Image className='img-graphic' src={"/graphic.png"} width={280} height={208} quality={100} alt="a graphic illustration" />
             </div>          
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Home() {
               nos destacamos como a escolha adequada para concretizar a 
               sua visão:
               </p>
-              <Link href="#" className="btn-green">
+              <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className="btn-green">
                 Criar meu site
               </Link>
             </div>
@@ -156,9 +156,9 @@ export default function Home() {
                   <li>Instalação no servidor;</li>
                   <li>Suporte de 30 dias.</li>
                 </ul>
-                <p className="payment-plan"><span>R$ 649,00 </span> no pix ou</p>
-                <p className="card-payment-plan">2X de R$ 349,95<span> no cartão</span></p>
-                <Link href="#" className='btn-green'>Criar meu site</Link>
+                <p className="payment-plan"><span>R$ 799,00 </span> no pix ou</p>
+                <p className="card-payment-plan">3X de R$ 283,35<span> no cartão</span></p>
+                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target="_blank" className='btn-green'>Criar meu site</Link>
               </div>
               <div className="plan plan-spotlight">
                 <h4 className="title-plan">Business</h4>
@@ -174,9 +174,9 @@ export default function Home() {
                   <li>Instalação no servidor;</li>
                   <li>Suporte de 30 dias.</li>
                 </ul>
-                <p className="payment-plan"><span>R$ 929,90 </span> no pix ou</p>
-                <p className="card-payment-plan">2X de R$ 499,95<span> no cartão</span></p>
-                <Link href="#" className='btn-green'>Criar meu site</Link>
+                <p className="payment-plan"><span>R$ 1.199,90 </span> no pix ou</p>
+                <p className="card-payment-plan">3X de R$ 416,65<span> no cartão</span></p>
+                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green'>Criar meu site</Link>
               </div>
               <div className="plan">
                 <h4 className="title-plan">Enterprise</h4>
@@ -193,9 +193,9 @@ export default function Home() {
                   <li>Instalação no servidor;</li>
                   <li>Suporte de 30 dias.</li>
                 </ul>
-                <p className="payment-plan"><span>R$ 1.399,90 </span> no pix ou</p>
-                <p className="card-payment-plan">2X de R$ 749,95<span> no cartão</span></p>
-                <Link href="#" className='btn-green'>Criar meu site</Link>
+                <p className="payment-plan"><span>R$ 1.499,90 </span> no pix ou</p>
+                <p className="card-payment-plan">2X de R$ 533,35<span> no cartão</span></p>
+                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green'>Criar meu site</Link>
               </div>
             </div>
           </div>
@@ -207,12 +207,12 @@ export default function Home() {
             <div className="col-right">
               <h2 className='title-risk'>Site Personalizado</h2>
               <p>Caso nenhum dos pacotes acima atenda completamente às suas necessidades, disponibilizamos uma equipe de especialistas em desenvolvimento web pronta para compreender as especificações do seu projeto. Entre em contato conosco, e nossa equipe agendará um dia e horário mais adequados para discutirmos detalhadamente as suas ideias e expectativas.</p>
-              <Link href="#" className='btn-green'>Entrar em contato</Link>
+              <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green'>Entrar em contato</Link>
             </div>
             <div className="col-left">
-              <Image className="img-graphic-1" src={"/graphic.png"} width={281} height={208} quality={100} alt="" />
-              <Image className="img-graphic-2" src={"/graphic-2.png"} width={413} height={250} quality={100} alt="" />
-              <Image className="guy-smiling" src={"/guy-smiling-photo.png"} width={629} height={693} quality={100} alt="" />
+              {/* <Image className="img-graphic-1" src={"/graphic.png"} width={281} height={208} quality={100} alt="" />
+              <Image className="img-graphic-2" src={"/graphic-2.png"} width={413} height={250} quality={100} alt="" /> */}
+              <Image className="guy-smiling" src={"/guy-smiling-photo.png"} width={629} height={693} quality={100} alt="a guy smilling using a suit and looking to a tablet" />
             </div>
           </div>
         </div>
@@ -225,12 +225,12 @@ export default function Home() {
               <SwiperComments/>
             </div>
             <div className="col-left">
-              <Image className="img-lokal" src={"/icon-company-comments-1.png"} width={139} height={139} quality={100} alt="" />
-              <Image className="img-expert" src={"/icon-company-comments-2.png"} width={161} height={161} quality={100} alt="" />
-              <Image className="img-lav" src={"/icon-company-comments-3.png"} width={98} height={98} quality={100} alt="" />
-              <Image className="img-conecta" src={"/icon-company-comments-4.png"} width={197} height={197} quality={100} alt="" />
-              <Image className="img-etrilhas" src={"/icon-company-comments-5.png"} width={149} height={149} quality={100} alt="" />
-              <Image className="img-ryze" src={"/icon-company-comments-6.png"} width={122} height={122} quality={100} alt="" />
+              <Image className="img-lokal" src={"/icon-company-comments-1.png"} width={139} height={139} quality={100} alt="floating logo of lokal our customer" />
+              <Image className="img-expert" src={"/icon-company-comments-2.png"} width={161} height={161} quality={100} alt="floating logo of expertagro our customer" />
+              <Image className="img-lav" src={"/icon-company-comments-3.png"} width={98} height={98} quality={100} alt="floating logo of lav our customer" />
+              <Image className="img-conecta" src={"/icon-company-comments-4.png"} width={197} height={197} quality={100} alt="floating logo of conecta saude our customer" />
+              <Image className="img-etrilhas" src={"/icon-company-comments-5.png"} width={149} height={149} quality={100} alt="floating logo of etrilhas our customer" />
+              <Image className="img-ryze" src={"/icon-company-comments-6.png"} width={122} height={122} quality={100} alt="floating logo of ryze our customer" />
             </div>
           </div>
         </div>

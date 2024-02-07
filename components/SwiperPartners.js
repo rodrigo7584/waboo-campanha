@@ -7,6 +7,7 @@ const SwiperPartner = () => {
     <div className="swiper-partners">
       <Swiper
         slidesPerView={2}
+        loop={true}
         breakpoints={{
           400: {
             slidesPerView: 3,
@@ -29,24 +30,12 @@ const SwiperPartner = () => {
       >
         <SwiperSlide>
           <div className="partner-box">
-            <Image
-              src={'/company-1.png'}
-              width={210}
-              height={62}
-              quality={100}
-              alt=""
-            />
+            <Image src={'/company-1.png'} width={210} height={62} quality={100} alt="logo amazon" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="partner-box">
-            <Image
-              src={'/company-2.png'}
-              width={199}
-              height={66}
-              quality={100}
-              alt=""
-            />
+            <Image src={'/company-2.png'} width={199} height={66} quality={100} alt="logo google" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -56,7 +45,7 @@ const SwiperPartner = () => {
               width={226}
               height={44}
               quality={100}
-              alt=""
+              alt="logo facebook"
             />
           </div>
         </SwiperSlide>
@@ -67,7 +56,7 @@ const SwiperPartner = () => {
               width={227}
               height={49}
               quality={100}
-              alt=""
+              alt="logo microsoft"
             />
           </div>
         </SwiperSlide>
@@ -78,7 +67,7 @@ const SwiperPartner = () => {
               width={240}
               height={19}
               quality={100}
-              alt=""
+              alt="logo automatic"
             />
           </div>
         </SwiperSlide>

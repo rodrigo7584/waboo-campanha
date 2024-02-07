@@ -42,6 +42,7 @@ const SwiperComments = () => {
         }}
         modules={[Navigation]}
         slidesPerView={1}
+        loop={true}
         className="mySwiper"
       >
         {swiperDataComments.map((slide, index) => (
@@ -59,7 +60,7 @@ const SwiperComments = () => {
                   width={94}
                   height={76}
                   quality={100}
-                  alt=""
+                  alt="detail icon"
                 />
               </div>
             </div>
@@ -72,7 +73,7 @@ const SwiperComments = () => {
         width={36}
         height={36}
         quality={100}
-        alt=""
+        alt="button next"
       />
 
       <Image
@@ -81,7 +82,7 @@ const SwiperComments = () => {
         width={36}
         height={36}
         quality={100}
-        alt=""
+        alt="button prev"
       />
     </div>
   )

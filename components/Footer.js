@@ -8,10 +8,10 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-left">
-            <h1>
+            <h2>
               Vamos <br />
               conversar!
-            </h1>
+            </h2>
             <Link href="mailto:contato@waboo.com.br" className="link-green">
               contato@waboo.com.br
             </Link>
@@ -31,10 +31,7 @@ const Footer = () => {
                 icon="/icon-whatsapp.png"
                 link="https://api.whatsapp.com/send?phone=5511942042774"
               />
-              <SocialButton
-                icon="/icon-behance.png"
-                link="https://www.behance.net/waboocreative"
-              />
+              <SocialButton icon="/icon-behance.png" link="https://www.behance.net/waboocreative" />
             </div>
           </div>
           <div className="col-right">

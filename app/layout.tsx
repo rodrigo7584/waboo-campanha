@@ -18,8 +18,21 @@ const outfit = Outfit({ subsets: ['latin'],
 variable: '--font-outfit' })
 
 export const metadata: Metadata = {
-  title: 'Waboo Creative',
-  description: 'Sua presença online',
+  title: 'Waboo Creative - Revolucione sua presença online com um site personalizado e impactante!',
+  description: 'Transforme sua presença online com a Waboo! Desenvolvemos sites personalizados e impactantes para empreendedores, startups e empresas. Aumente sua base de clientes, impulsione vendas e maximize seus lucros com nossas soluções de alto nível.',
+  metadataBase: new URL('https://waboo.com.br/site'),
+  openGraph: {
+    title: 'Waboo Creative',
+    description: 'Revolucione sua presença online com um site personalizado e impactante!',
+    url: 'https://waboo.com.br/site',
+    images: '/public/favicon.ico',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Waboo Creative',
+    description: 'Revolucione sua presença online com um site personalizado e impactante!',
+    images: '/public/favicon.ico',
+  },
 }
 
 export default function RootLayout({
