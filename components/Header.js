@@ -1,3 +1,4 @@
+'use client'
 import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -5,16 +6,12 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
 
 import logo from '../public/logo.png'
 
-interface SectionRefs {
-  [key: string]: React.RefObject<HTMLElement>;
-}
-
-const Header: React.FC = () => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('')
 
-  const headerRef = useRef < HTMLHeadingElement > null
-  const sectionsRef = useRef < SectionRefs > {}
+  const headerRef = useRef(null)
+  const sectionsRef = useRef({})
 
   function toggleMenu() {
     setIsMenuOpen(prevIsMenuOpen => !prevIsMenuOpen)
@@ -23,7 +20,7 @@ const Header: React.FC = () => {
   useEffect(() => {
     const btnMobile = document.querySelector('.btn-mobile-menu')
 
-    btnMobile?.addEventListener('click', toggleMenu)
+    btnMobile.addEventListener('click', toggleMenu)
 
     const btnsMenu = document.querySelectorAll('.menu .menu-item')
 
@@ -31,14 +28,17 @@ const Header: React.FC = () => {
       btn.addEventListener('click', toggleMenu)
     })
 
+    // Adiciona um ouvinte de rolagem à janela
     const handleScroll = () => {
       const scrollPosition = window.scrollY
 
-      const menuHeight = headerRef.current?.offsetHeight ?? 0
+      // Calcula dinamicamente a altura do header
+      const menuHeight = headerRef.current ? headerRef.current.offsetHeight : 0
 
+      // Calcula dinamicamente os deslocamentos e alturas das seções
       Object.entries(sectionsRef.current).forEach(([id, ref]) => {
-        const offsetTop = ref.current?.offsetTop ?? 0
-        const offsetHeight = ref.current?.offsetHeight ?? 0
+        const offsetTop = ref.current.offsetTop
+        const offsetHeight = ref.current.offsetHeight
 
         if (
           scrollPosition >= offsetTop - menuHeight &&
@@ -51,8 +51,9 @@ const Header: React.FC = () => {
 
     window.addEventListener('scroll', handleScroll)
 
+    // Remove o ouvinte ao desmontar o componente
     return () => {
-      btnMobile?.removeEventListener('click', toggleMenu)
+      btnMobile.removeEventListener('click', toggleMenu)
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
@@ -155,5 +156,3 @@ const Header: React.FC = () => {
     </header>
   )
 }
-
-export default Header
