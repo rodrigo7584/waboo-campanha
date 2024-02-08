@@ -17,7 +17,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-right">
-              <h1>Revolucione sua presença online com um site personalizado e impactante!
+              <h1>Sites personalizados e impactantes!
               </h1>
               <p>Seja você um empreendedor ambicioso, 
                 uma startup inovadora ou uma empresa consolidada, 

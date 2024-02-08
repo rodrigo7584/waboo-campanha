@@ -145,8 +145,11 @@ const Header = () => {
                 </ScrollLink>
               </li>
               <li>
-                <Link href="#portifolio" className="btn-green">
-                  Entrar em contato
+                <Link
+                  href="https://api.whatsapp.com/send?phone=5511942042774"
+                  className="btn-green"
+                >
+                  WhatsApp
                 </Link>
               </li>
             </ul>

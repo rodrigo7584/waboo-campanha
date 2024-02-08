@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Outfit, Roboto } from 'next/font/google'
 
+import { GoogleTagManager } from '@next/third-parties/google'
+
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
@@ -47,6 +49,7 @@ export default function RootLayout({
           {children}
         <Footer/>
       </body>
+      <GoogleTagManager gtmId="GTM-PNLG4WC5" />
     </html>
   )
 }

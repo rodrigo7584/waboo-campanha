@@ -12,10 +12,10 @@
   justify-content: center;
 }
 .swiper-partners .partner-box:hover img {
-  filter: grayscale(0);
+  filter: grayscale(0) contrast(1);
   cursor: pointer;
 }
 .swiper-partners .partner-box img {
-  filter: grayscale(1);
+  filter: grayscale(1) contrast(0);
   width: calc(100% - 1rem);
 }
