@@ -11,6 +11,10 @@ header.menu {
   box-sizing: border-box;
   position: fixed;
 }
+header.menu::before{
+  content: '';
+  height: 10rem;
+}
 header.menu .row {
   display: flex;
   justify-content: space-between;

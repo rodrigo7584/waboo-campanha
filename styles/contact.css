@@ -2,16 +2,21 @@
   background: var(--color-gray-300);
   padding: 5rem 0;
 }
-.contact h2,
-.contact h3 {
-  text-align: center;
+.contact .row{
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 9rem));
+  justify-content: center;
+  align-items: center;
+  gap: 9rem;
+}
+.contact .col-right img{
+  max-width: 100%;
 }
 .contact form {
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 2rem;
+  gap: 1.8rem;
 }
 .contact form input {
   border: none;
@@ -19,7 +24,8 @@
   font-family: var(--font-roboto);
   font-size: 1.5rem;
   border-radius: 0.5rem;
-  width: 34rem;
+  max-width: 100%;
+  width: 48rem;
 }
 .contact form textarea {
   border: none;
@@ -27,7 +33,20 @@
   font-family: var(--font-roboto);
   font-size: 1.5rem;
   border-radius: 0.5rem;
-  width: 34rem;
+  max-width: 100%;
   resize: none;
-  height: 20rem;
+  height: 15.5rem;
+  width: 48rem;
+}
+
+@media (max-width: 992px) {
+  .contact .row{
+    grid-template-columns: 60%  calc(40% - 2rem);
+    gap: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .contact .row{
+    grid-template-columns: 100%;
+  }
 }

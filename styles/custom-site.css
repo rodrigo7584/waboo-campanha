@@ -15,7 +15,7 @@
   display: flex;
   position: relative;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   padding: 5rem 0;
 }
 /* .custom-site .col-left .img-graphic-1 {

@@ -1,3 +1,7 @@
+'use client'
+import React, { useEffect, useState } from 'react';
+
+
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -10,9 +14,19 @@ import Accordion from '../components/Accordion'
 import EnviarEmail from '../components/EnviarEmail'
 
 export default function Home() {
+  
+  const [headerHeight, setHeaderHeight] = useState(0);
+
+  useEffect(() => {
+    const headerElement = document.querySelector('header.menu');
+    if (headerElement) {
+      setHeaderHeight(headerElement.clientHeight);
+    }
+  }, []);
+
   return (
     <>
-    <main>
+    <main style={{ paddingTop: `${headerHeight}px` }}>
       <section className='hero' id='hero'>
         <div className="container">
           <div className="row">
@@ -325,12 +339,17 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="container">
           <div className="row">
-             <h2>Transforme sua presença online hoje mesmo!</h2>
-            <h3>Consulte-nos para um site que vai além das expectativas, que atraia mais clientes e gere mais receitas para o seu negóclio.</h3>
-           <EnviarEmail/>
+            <div className="col-left">
+              <h2>Transforme sua presença online hoje mesmo!</h2>
+              <h3>Consulte-nos para um site que vai além das expectativas, que atraia mais clientes e gere mais receitas para o seu negóclio.</h3>
+              <EnviarEmail/>
+            </div>
+            <div className="col-right">
+              <Image src='/guy-smiling-photo-2.png' width={628} height={797} quality={100} alt='guys smiling'/>
+            </div>
           </div>
         </div>
       </section>

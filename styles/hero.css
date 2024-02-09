@@ -1,6 +1,6 @@
 .hero {
   background: var(--color-gray-200);
-  padding-top: calc(5rem + 7.89rem);
+  padding-top: 3rem;
 }
 .hero .row {
   display: grid;
@@ -10,6 +10,9 @@
 }
 .hero p {
   margin-bottom: 2rem;
+}
+.hero .col-right {
+  margin-top: -3rem;
 }
 .hero .col-left {
   position: relative;

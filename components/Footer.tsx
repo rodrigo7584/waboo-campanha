@@ -35,14 +35,14 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-right">
-            {/* <ul className="list-links">
+            <ul className="list-links">
               <li>
-                <Link href="#">Página de contato</Link>
+                <Link href="#contact">Contato</Link>
               </li>
               <li>
-                <Link href="#">Política de Privacidade</Link>
+                <Link target="_blank" href="/politica_de_privacidade.pdf">Política de Privacidade</Link>
               </li>
-            </ul> */}
+            </ul>
             <p className="copyright">
               © Copyright 2023. Waboo Creative. <br />
               Todos os direitos reservados. Brasil.

@@ -59,104 +59,116 @@ const Header = () => {
   }, [])
 
   return (
-    <header className="menu" ref={headerRef}>
-      <div className="container">
-        <div className="row">
-          <Link href="/" className="logo">
-            <Image src={logo} width={189} height={53} quality={100} alt="company logo" />
-          </Link>
-          <nav className={isMenuOpen ? 'active' : ''}>
-            <button className={isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'}>
-              <div></div>
-              <div></div>
-              <div></div>
-            </button>
-            <ul>
-              <li className="menu-item">
-                <ScrollLink
-                  to="hero"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                  active={activeSection === 'hero' ? true : undefined}
-                >
-                  Home
-                </ScrollLink>
-              </li>
-              <li className="menu-item">
-                <ScrollLink
-                  to="waboo"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                  active={activeSection === 'waboo' ? true : undefined}
-                >
-                  Waboo
-                </ScrollLink>
-              </li>
-              <li className="menu-item">
-                <ScrollLink
-                  to="portfolio"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                  active={activeSection === 'portfolio' ? true : undefined}
-                >
-                  Portfólio
-                </ScrollLink>
-              </li>
-              <li className="menu-item">
-                <ScrollLink
-                  to="planos"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                  active={activeSection === 'planos' ? true : undefined}
-                >
-                  Planos
-                </ScrollLink>
-              </li>
-              <li className="menu-item">
-                <ScrollLink
-                  to="clientes"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                  active={activeSection === 'clientes' ? true : undefined}
-                >
-                  Clientes
-                </ScrollLink>
-              </li>
-              <li className="menu-item">
-                <ScrollLink
-                  to="faq"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                  active={activeSection === 'faq' ? true : undefined}
-                >
-                  FAQ
-                </ScrollLink>
-              </li>
-              <li>
-                <Link
-                  href="https://api.whatsapp.com/send?phone=5511942042774"
-                  className="btn-green"
-                >
-                  WhatsApp
-                </Link>
-              </li>
-            </ul>
-          </nav>
+    <>
+      <header className="menu" ref={headerRef}>
+        <div className="container">
+          <div className="row">
+            <Link href="/" className="logo">
+              <Image
+                src={logo}
+                width={189}
+                height={53}
+                quality={100}
+                alt="company logo"
+              />
+            </Link>
+            <nav className={isMenuOpen ? 'active' : ''}>
+              <button
+                className={
+                  isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'
+                }
+              >
+                <div></div>
+                <div></div>
+                <div></div>
+              </button>
+              <ul>
+                <li className="menu-item">
+                  <ScrollLink
+                    to="hero"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    active={activeSection === 'hero' ? true : undefined}
+                  >
+                    Home
+                  </ScrollLink>
+                </li>
+                <li className="menu-item">
+                  <ScrollLink
+                    to="waboo"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    active={activeSection === 'waboo' ? true : undefined}
+                  >
+                    Waboo
+                  </ScrollLink>
+                </li>
+                <li className="menu-item">
+                  <ScrollLink
+                    to="portfolio"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    active={activeSection === 'portfolio' ? true : undefined}
+                  >
+                    Portfólio
+                  </ScrollLink>
+                </li>
+                <li className="menu-item">
+                  <ScrollLink
+                    to="planos"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    active={activeSection === 'planos' ? true : undefined}
+                  >
+                    Planos
+                  </ScrollLink>
+                </li>
+                <li className="menu-item">
+                  <ScrollLink
+                    to="clientes"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    active={activeSection === 'clientes' ? true : undefined}
+                  >
+                    Clientes
+                  </ScrollLink>
+                </li>
+                <li className="menu-item">
+                  <ScrollLink
+                    to="faq"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    active={activeSection === 'faq' ? true : undefined}
+                  >
+                    FAQ
+                  </ScrollLink>
+                </li>
+                <li>
+                  <Link
+                    href="https://api.whatsapp.com/send?phone=5511942042774"
+                    className="btn-green"
+                  >
+                    WhatsApp
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   )
 }
 export default Header
