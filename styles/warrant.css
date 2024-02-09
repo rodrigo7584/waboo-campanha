@@ -1,5 +1,5 @@
 .warrant {
-  padding: 5rem 0;
+  padding: 8rem 0;
   background-image: url('../public/background.png');
   background-size: 100% 100%;
 }
@@ -20,6 +20,7 @@
 
 @media (max-width: 768px) {
   .warrant {
+    padding: 5rem 0;
     background-image: none;
     background:linear-gradient(90deg, var(--color-gray-500), var(--color-gray-400));
   }

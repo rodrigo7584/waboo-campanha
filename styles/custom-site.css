@@ -5,7 +5,7 @@
 .custom-site .row {
   display: grid;
   align-items: center;
-  grid-template-columns: 40% calc(60% - 2rem);
+  grid-template-columns:  repeat(2, calc(50% - 2rem));
   gap: 2rem;
 }
 .custom-site .btn-green {

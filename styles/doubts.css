@@ -1,5 +1,5 @@
 .doubts {
-  padding: 5rem 0;
+  padding: 9rem 0;
 }
 .doubts .row {
   display: grid;
@@ -23,6 +23,9 @@
   top: 1rem;
 }
 @media (max-width: 768px) {
+  .doubts {
+    padding: 5rem 0;
+  }
   .doubts .row {
     gap: 3rem;
     grid-template-columns: 100%;
