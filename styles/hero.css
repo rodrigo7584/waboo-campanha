@@ -49,7 +49,7 @@
 }
 @media (max-width: 768px) {
   .hero {
-    padding-top: calc(5rem + 6.89rem);
+    padding-top: 5rem;
   }
   .hero .row {
     gap: 5rem;

@@ -57,9 +57,19 @@ footer p.copyright {
 }
 @media (max-width: 576px) {
   footer {
+    padding: 7rem 0;
     background-size: auto 20rem;
+  }
+  footer .list-links li a{
+    font-size: 2rem;/**/
   }
   footer .row {
     grid-template-columns: 100%;
+  }
+  footer h2 {
+    font-size: 4.3rem/**/;
+  }
+  footer p.copyright {
+    font-size: 1.8rem;/**/
   }
 }
