@@ -37,8 +37,8 @@ const SwiperComments = () => {
     <div className="swiper-comments">
       <Swiper
         navigation={{
-          prevEl: '.swiper-comments .swiper-button-prev',
-          nextEl: '.swiper-comments .swiper-button-next'
+          prevEl: '.swiper-comments .swiper-button-next',
+          nextEl: '.swiper-comments .swiper-button-prev'
         }}
         modules={[Navigation]}
         slidesPerView={1}

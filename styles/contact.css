@@ -2,14 +2,14 @@
   background: var(--color-gray-300);
   padding: 5rem 0;
 }
-.contact .row{
+.contact .row {
   display: grid;
-  grid-template-columns: repeat(2, calc(50% - 9rem));
+  grid-template-columns: repeat(2, calc(50% - 4.5rem));
   justify-content: center;
   align-items: center;
   gap: 9rem;
 }
-.contact .col-right img{
+.contact .col-right img {
   max-width: 100%;
 }
 .contact form {
@@ -40,13 +40,13 @@
 }
 
 @media (max-width: 992px) {
-  .contact .row{
-    grid-template-columns: 60%  calc(40% - 2rem);
+  .contact .row {
+    grid-template-columns: 60% calc(40% - 2rem);
     gap: 2rem;
   }
 }
 @media (max-width: 768px) {
-  .contact .row{
+  .contact .row {
     grid-template-columns: 100%;
   }
 }
