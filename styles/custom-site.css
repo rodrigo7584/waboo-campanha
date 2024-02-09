@@ -5,7 +5,7 @@
 .custom-site .row {
   display: grid;
   align-items: center;
-  grid-template-columns:  repeat(2, calc(50% - 2rem));
+  grid-template-columns: 60% calc(40% - 2rem);
   gap: 2rem;
 }
 .custom-site .btn-green {
@@ -16,7 +16,6 @@
   position: relative;
   align-items: center;
   justify-content: right;
-  padding: 5rem 0;
 }
 /* .custom-site .col-left .img-graphic-1 {
   position: absolute;

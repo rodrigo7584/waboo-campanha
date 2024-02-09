@@ -81,17 +81,17 @@ export default function Home() {
             <div className="blocks">
               <SpotlightBlock
                 icon="/rounded-icon-1.png"
-                title="Design inovador:"
+                title="Design inovador"
                 text="Desenvolvemos layouts exclusivos e estratégicos que aumentam a percepção de valor do seu negócio, geram confiança nos clientes e potencializam a conversão."
               />
               <SpotlightBlock
                 icon="/rounded-icon-2.png"
-                title="Tecnologias de ponta:"
+                title="Tecnologias de ponta"
                 text="Utilizamos as mais recentes tecnologias para garantir que seu site não apenas impressione visualmente, mas também ofereça desempenho excepcional e uma ótima experiência ao usuário."
               />
               <SpotlightBlock
                 icon="/rounded-icon-3.png"
-                title="Otimização total:"
+                title="Otimização total"
                 text="Garantimos que seu site seja totalmente responsivo, oferecendo uma experiência perfeita em dispositivos móveis, tablets e computadores."
               />
             </div>
@@ -344,7 +344,7 @@ export default function Home() {
           <div className="row">
             <div className="col-left">
               <h2>Transforme sua presença online hoje mesmo!</h2>
-              <h3>Consulte-nos para um site que vai além das expectativas, que atraia mais clientes e gere mais receitas para o seu negóclio.</h3>
+              <h3>Consulte-nos para um site que vai além das expectativas, que atraia mais clientes e gere mais receitas para o seu negócio.</h3>
               <EnviarEmail/>
             </div>
             <div className="col-right">

@@ -1,5 +1,5 @@
 .why {
-  padding: 10rem 0;
+  padding: 5rem 0;
   background-color: var(--color-gray-200);
 }
 .why .col {
@@ -8,12 +8,15 @@
   align-items: center;
   gap: 2rem;
 }
+.why .col .btn-green {
+  justify-self: flex-end;
+}
 .why .blocks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 .spotlight-block {
   width: calc(33.32% - 2rem);

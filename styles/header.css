@@ -10,8 +10,9 @@ header.menu {
   z-index: 10;
   box-sizing: border-box;
   position: fixed;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1));
 }
-header.menu::before{
+header.menu::before {
   content: '';
   height: 10rem;
 }
