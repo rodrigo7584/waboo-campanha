@@ -43,6 +43,9 @@
   .hero h1 {
     font-size: 3rem;
   }
+  .hero .col-right {
+    margin-top: 00rem;
+  }
   .hero .col-left .img-graphic {
     width: 15rem;
   }
