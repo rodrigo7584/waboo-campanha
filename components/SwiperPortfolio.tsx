@@ -10,15 +10,20 @@ const swiperDataPortfolio = [
   { src: '/portfolio-1.png', textLink: 'BR Garantidora de Crédito', link: 'https://brgarantidora.com.br' },
   { src: '/portfolio-2.png', textLink: 'Ryze Capital', link: 'https://ryze.capital' },
   { src: '/portfolio-grk.png', textLink: 'ABC Pack', link: 'https://abcpack.vercel.app/' },
-  { src: '/portfolio-conectapag.png', textLink: 'ConectaPag', link: 'https://projetoswaboo.com.br/waboo_testes/conectapag/' },
+  { src: '/portfolio-conectapag.png', textLink: 'ConectaPag', link: 'https://projetoswaboo.com.br/conectapag/' },
   { src: '/portfolio-movidamed.png', textLink: 'Movida Med', link: 'https://movidamed.com.br/' },
-  { src: '/portfolio-kryptex.png', textLink: 'Kryptex', link: 'https://projetoswaboo.com.br/waboo_testes/krype/' },
-  { src: '/portfolio-telma.png', textLink: 'Telma', link: '#' },
-  { src: '/portfolio-1daybot.png', textLink: '1DayBot', link: '#' },
-  { src: '/portfolio-conectasaude.png', textLink: 'Conecta Saúde', link: '#' },
-  { src: '/portfolio-bullbebtc.png', textLink: 'BullBeBTC', link: '#' },
+  { src: '/portfolio-kryptex.png', textLink: 'Kryptex', link: 'https://projetoswaboo.com.br/kryptex/' },
+  { src: '/portfolio-telma.png', textLink: 'Telma', link: 'https://www.behance.net/waboocreative' },
+  { src: '/portfolio-1daybot.png', textLink: '1DayBot', link: 'https://www.behance.net/gallery/191068533/UiUx-Design-1DayBot' },
+  { src: '/portfolio-conectasaude.png', textLink: 'Conecta Saúde', link: 'https://projetoswaboo.com.br/conecta-saude/' },
+  { src: '/portfolio-bullbebtc.png', textLink: 'BullBeBTC', link: 'https://projetoswaboo.com.br/bullbebtc/' },
   { src: '/portfolio-ryze.png', textLink: 'Ryze 2', link: 'https://ryze.capital' },
-  { src: '/portfolio-9xminer.png', textLink: '9x Miner', link: '#' }
+  { src: '/portfolio-bxm.png', textLink: 'BXM', link: 'https://projetoswaboo.com.br/bxm' },
+  { src: '/portfolio-upleads.png', textLink: 'Upleads', link: 'https://projetoswaboo.com.br/upleads/'},
+  { src: '/portfolio-pixswap.png', textLink: 'Pixswap', link: 'https://www.behance.net/gallery/183364927/UiUx-Design-PixWap'},
+  { src: '/portfolio-work.png', textLink: 'WORK', link: 'https://www.behance.net/gallery/137455067/WebDesign-Work'},
+  { src: '/portfolio-royaltech.png', textLink: 'RoyalTech', link: 'https://projetoswaboo.com.br/royaltech/'},
+  { src: '/portfolio-suno.png', textLink: 'Suno', link: 'https://projetoswaboo.com.br/suno/'},
 ]
 
 const SwiperPortfolio = () => {
