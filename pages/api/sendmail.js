@@ -17,8 +17,8 @@ export default async function handler(req, res) {
       const mailOptions = {
         from: `${email}`,
         to: 'contato@waboo.com.br',
-        subject: 'Contato site campanha waboo',
-        text: `Nome: ${name}\nNúmero: ${number}\nMensagem: ${message}`
+        subject: 'Contato - Criação de Sites',
+        text: `Nome: ${name}\nEmail: ${email}\nNúmero: ${number}\nMensagem: ${message}`
       }
 
       // Envia o e-mail
@@ -26,14 +26,10 @@ export default async function handler(req, res) {
 
       console.log('E-mail enviado:', info.response)
 
-      res
-        .status(200)
-        .json({ success: true, message: 'Mensagem enviada com sucesso!' })
+      res.status(200).json({ success: true, message: 'Mensagem enviada com sucesso!' })
     } catch (error) {
       console.error('Erro ao enviar e-mail:', error)
-      res
-        .status(500)
-        .json({ success: false, message: 'Erro ao enviar a mensagem.' })
+      res.status(500).json({ success: false, message: 'Erro ao enviar a mensagem.' })
     }
   } else {
     res.status(405).json({ success: false, message: 'Método não permitido.' })

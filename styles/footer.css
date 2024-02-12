@@ -4,7 +4,7 @@ footer {
   background-repeat: no-repeat;
   background-position: right center;
   background-size: auto 30rem;
-  padding: 10rem 0;
+  padding: 10rem 0 !important;
 }
 footer .row {
   display: grid;
@@ -29,23 +29,23 @@ footer .social-buttons img {
   width: 2rem;
 }
 .footer .link-green,
-.footer .celnumber{
-  font-size: 2.4rem/**/;
+.footer .celnumber {
+  font-size: 2.4rem /**/;
 }
 footer .list-links {
   margin-bottom: 2rem;
 }
-footer .list-links li a{
+footer .list-links li a {
   color: var(--color-white);
   font-weight: 400;
   /* font-size: 1.8rem; */
-  font-size: 2.5rem;/**/
+  font-size: 2.5rem; /**/
 }
 footer h2 {
   color: var(--color-white);
   line-height: 1;
   margin-bottom: 3rem;
-  font-size: 5.3rem/**/;
+  font-size: 5.3rem /**/;
 }
 footer .celnumber {
   color: var(--color-white);
@@ -53,23 +53,23 @@ footer .celnumber {
 footer p.copyright {
   color: var(--color-gray-400);
   font-weight: 500;
-  font-size: 2.5rem;/**/
+  font-size: 2.5rem; /**/
 }
 @media (max-width: 576px) {
   footer {
     padding: 7rem 0;
     background-size: auto 20rem;
   }
-  footer .list-links li a{
-    font-size: 2rem;/**/
+  footer .list-links li a {
+    font-size: 2rem; /**/
   }
   footer .row {
     grid-template-columns: 100%;
   }
   footer h2 {
-    font-size: 4.3rem/**/;
+    font-size: 4.3rem /**/;
   }
   footer p.copyright {
-    font-size: 1.8rem;/**/
+    font-size: 1.8rem; /**/
   }
 }
