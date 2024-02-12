@@ -15,7 +15,7 @@ const Footer = () => {
             <Link href="mailto:contato@waboo.com.br" className="link-green">
               contato@waboo.com.br
             </Link>
-            <Link href="tel:11942042774" className="celnumber">
+            <Link href="https://api.whatsapp.com/send?phone=5511942042774" className="celnumber">
               (11) 9.4204-2774
             </Link>
             <div className="social-buttons">
