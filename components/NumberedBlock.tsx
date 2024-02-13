@@ -8,7 +8,7 @@ const NumberedBlock = ({ number, title, text }: NumberedBlockProps) => {
   return (
     <div className="numbered-block">
       <div className="icon-numered-block">{number}</div>
-      <h4 className="title-numered-block">{title}</h4>
+      <h3 className="title-numered-block">{title}</h3>
       <p className="text-numered-block">{text}</p>
     </div>
   )

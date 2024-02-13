@@ -32,7 +32,12 @@
 .spotlight-block img {
   width: 9rem;
 }
-.spotlight-block h4 {
+.spotlight-block h3 {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.3;
+  color: var(--color-black);
   margin-bottom: 0;
   text-align: center;
 }

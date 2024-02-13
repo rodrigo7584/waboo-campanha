@@ -21,6 +21,13 @@
   position: relative;
   margin-left: 2.5rem;
 }
+.numbered-block h3 {
+  font-family: var(--font-roboto);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.3;
+  color: var(--color-black);
+}
 .numbered-block .icon-numered-block {
   position: absolute;
   background-color: var(--color-green);
@@ -43,7 +50,7 @@
   color: var(--color-gray-400);
 }
 @media (max-width: 576px) {
-.steps .blocks {
-  padding: 3rem 0 0 0;
-}
+  .steps .blocks {
+    padding: 3rem 0 0 0;
+  }
 }

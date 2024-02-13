@@ -43,8 +43,8 @@ export default function Home() {
               </Link>
             </div>
             <div className="col-left">
-              <Image className="img-guy" src={"/guy-photo.png"} width={740} height={843} quality={100} alt="a guy wearing classes and smilling" />
-              <Image className='img-graphic' src={"/graphic.png"} width={280} height={208} quality={100} alt="a graphic illustration" />
+              <Image className="img-guy" src={"/guy-photo.png"} width={740} height={843} quality={100} priority={true} alt="a guy wearing classes and smilling" />
+              <Image className='img-graphic' src={"/graphic.png"} width={280} height={208} quality={100} priority={true} alt="a graphic illustration" />
             </div>          
           </div>
         </div>

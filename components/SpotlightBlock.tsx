@@ -17,7 +17,7 @@ const SpotlightBlock = ({ icon, title, text }:SpotlightBlockProps) => {
         quality={100}
         alt="detail icon"
       />
-      <h4 className="title-block">{title}</h4>
+      <h3 className="title-block">{title}</h3>
       <p className="text-block">{text}</p>
     </div>
   )

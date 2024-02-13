@@ -64,10 +64,20 @@ const Header = () => {
         <div className="container">
           <div className="row">
             <Link href="/" className="logo">
-              <Image src={logo} width={189} height={53} quality={100} alt="company logo" />
+              <Image
+                src={logo}
+                width={189}
+                height={53}
+                quality={100}
+                priority={true}
+                alt="company logo"
+              />
             </Link>
             <nav className={isMenuOpen ? 'active' : ''}>
-              <button className={isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'}>
+              <button
+                className={isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'}
+                aria-label="menu"
+              >
                 <div></div>
                 <div></div>
                 <div></div>
