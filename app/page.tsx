@@ -303,7 +303,7 @@ export default function Home() {
                 />
                 <Accordion
                   title="Após a criação do site, eu terei que pagar alguma mensalidade?"
-                  content="Todo site para se manter online precisa de serviços que geram custos recorrentes, como o registro de domínio e a hospedagem. Nenhum site funciona sem estes serviços. Mas não se preocupe que esses custos não são elevados, não chegando nem a R$ 30,00/mês. Ao contratar alguns dos nossos planos você ganha uma consultoria sobre como contratar esses serviços e 30 dias de suporte para qualquer problema ou dúvida que venha a ter."
+                  content="Todo site para se manter online precisa de serviços que geram custos recorrentes, como o registro de domínio e a hospedagem. Nenhum site funciona sem estes serviços. Mas não se preocupe que esses custos não são elevados, não chegando nem a R$ 30,00/mês."
                 />
               </div>
             </div>
