@@ -271,6 +271,7 @@ li {
   /* min-width: 16rem; */
   display: inline-block;
   /* justify-content: center; */
+  white-space: nowrap;
 }
 .btn-green:hover {
   filter: brightness(0.85);
