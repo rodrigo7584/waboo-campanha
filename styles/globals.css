@@ -267,7 +267,10 @@ li {
   font-size: 1.5rem;
   border-radius: 1rem;
   padding: 1.5rem 3rem;
-  width: fit-content;
+  /* width: fit-content; */
+  /* min-width: 16rem; */
+  display: inline-block;
+  /* justify-content: center; */
 }
 .btn-green:hover {
   filter: brightness(0.85);
