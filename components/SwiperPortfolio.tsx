@@ -68,7 +68,7 @@ const SwiperPortfolio = () => {
                 quality={100}
                 alt="print of portfolio's sites"
               />
-              <Link href={slide.link} target='_blank' className="btn-border-black">
+              <Link href={slide.link} target='_blank' className="btn-border-black" id={`btn-portifolio-${index}`}>
                 {slide.textLink}
               </Link>
             </div>

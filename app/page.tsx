@@ -38,7 +38,7 @@ export default function Home() {
                 na Waboo criamos sites de alto nível, capazes de ampliar sua base 
                 de clientes, impulsionar suas vendas e maximizar os lucros do seu negócio. 
               </p>
-              <Link target='_blank' href="https://api.whatsapp.com/send?phone=5511942042774" className="btn-green">
+              <Link target='_blank' href="https://api.whatsapp.com/send?phone=5511942042774" className="btn-green" id="bnt-mais-resultados">
                 Quero ter mais resultados
               </Link>
             </div>
@@ -74,7 +74,7 @@ export default function Home() {
               nos destacamos como a escolha adequada para concretizar a 
               sua visão:
               </p>
-              <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className="btn-green">
+              <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className="btn-green" id="btn-criar-meu-site-why">
                 Criar meu site
               </Link>
             </div>
@@ -172,7 +172,7 @@ export default function Home() {
                 </ul>
                 <p className="payment-plan"><span>R$ 799,00 </span> no pix ou</p>
                 <p className="card-payment-plan">3X de R$ 283,35<span> no cartão</span></p>
-                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target="_blank" className='btn-green'>Criar meu site</Link>
+                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target="_blank" className='btn-green' id='btn-criar-meu-site-plano-basic'>Criar meu site</Link>
               </div>
               <div className="plan plan-spotlight">
                 <h4 className="title-plan">Business</h4>
@@ -190,7 +190,7 @@ export default function Home() {
                 </ul>
                 <p className="payment-plan"><span>R$ 1.199,90 </span> no pix ou</p>
                 <p className="card-payment-plan">3X de R$ 416,65<span> no cartão</span></p>
-                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green'>Criar meu site</Link>
+                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green'id='btn-criar-meu-site-plano-business'>Criar meu site</Link>
               </div>
               <div className="plan">
                 <h4 className="title-plan">Enterprise</h4>
@@ -209,7 +209,7 @@ export default function Home() {
                 </ul>
                 <p className="payment-plan"><span>R$ 1.499,90 </span> no pix ou</p>
                 <p className="card-payment-plan">2X de R$ 533,35<span> no cartão</span></p>
-                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green'>Criar meu site</Link>
+                <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green' id='btn-criar-meu-site-plano-enterprise'>Criar meu site</Link>
               </div>
             </div>
           </div>
@@ -221,7 +221,7 @@ export default function Home() {
             <div className="col-right">
               <h2 className='title-risk'>Site Personalizado</h2>
               <p>Caso nenhum dos pacotes acima atenda completamente às suas necessidades, disponibilizamos uma equipe de especialistas em desenvolvimento web pronta para compreender as especificações do seu projeto. Entre em contato conosco, e nossa equipe agendará um dia e horário mais adequados para discutirmos detalhadamente as suas ideias e expectativas.</p>
-              <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green'>Entrar em contato</Link>
+              <Link href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className='btn-green' id='btn-entrar-em-contato'>Entrar em contato</Link>
             </div>
             <div className="col-left">
               {/* <Image className="img-graphic-1" src={"/graphic.png"} width={281} height={208} quality={100} alt="" />

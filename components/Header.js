@@ -159,6 +159,7 @@ const Header = () => {
                   <Link
                     href="https://api.whatsapp.com/send?phone=5511942042774"
                     className="btn-green"
+                    id="btn-whatsapp-header"
                     target="_blank"
                   >
                     WhatsApp
