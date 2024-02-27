@@ -38,7 +38,9 @@
   height: 15.5rem;
   width: 48rem;
 }
-
+.contact form .btn-green{
+  margin: 0 auto;
+}
 @media (max-width: 992px) {
   .contact .row {
     grid-template-columns: 60% calc(40% - 2rem);
@@ -49,4 +51,9 @@
   .contact .row {
     grid-template-columns: 100%;
   }
+}
+@media (max-width: 578px) {
+.contact form .btn-green {
+  margin: 0 auto ;
+}
 }
