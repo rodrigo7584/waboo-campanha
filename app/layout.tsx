@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Outfit, Roboto } from 'next/font/google'
 
 import { GoogleTagManager } from '@next/third-parties/google'
+import  FacebookPixel from "../components/FacebookPixel";
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -47,6 +48,7 @@ export default function RootLayout({
       <body className={`${outfit.variable} ${roboto.variable}`}>
         <Header/>
           {children}
+          <FacebookPixel />
         <Footer/>
       </body>
       <GoogleTagManager gtmId="GTM-PNLG4WC5" />
