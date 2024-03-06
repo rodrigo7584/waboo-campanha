@@ -1,5 +1,7 @@
 'use client'
 import { useState, useEffect, useRef } from 'react'
+import * as fbq from '../lib/fpixel'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
@@ -7,8 +9,10 @@ import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'
 import logo from '../public/logo.png'
 
 const Header = () => {
-  const ConnectConversionAPI =
-    'EAALBvLACwYcBO6meTwPb3Eetlwj3TnKxSEkp9JF1csv2Tf8ClwpXZBumF6yKjoV7fQK4iaMQZBmIKtH0vfjDgrb6MgVPjX1BEZAbTrUDiWwq9ZBx8QIx7aeUsijhHZBQC8ynk2ZBvNDzTRnZAeHXLXoIovsoyMd78pCPtk3E9wuUjdsR7YftlBl6PHPfQZAZB4EqjZCwZDZD'
+  const handleClick = () => {
+    fbq.event('Botão cabeçalho')
+  }
+
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('')
 
@@ -161,6 +165,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
+                    onClick={handleClick}
                     href="https://api.whatsapp.com/send?phone=5511942042774"
                     className="btn-green"
                     id="btn-whatsapp-header"
