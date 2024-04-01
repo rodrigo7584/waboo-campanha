@@ -77,7 +77,7 @@ export default function Home() {
               nos destacamos como a escolha adequada para concretizar a 
               sua visão:
               </p>
-              <Link onClick={handleClick} href="https://api.whatsapp.com/send?phone=5511942042774" target='_blank' className="btn-green" id="btn-criar-meu-site-why">
+              <Link onClick={handleClick} href="#planos" className="btn-green" id="btn-criar-meu-site-why">
                 Criar meu site
               </Link>
             </div>
