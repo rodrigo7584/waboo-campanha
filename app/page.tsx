@@ -41,7 +41,7 @@ export default function Home() {
                 na Waboo criamos sites de alto nível, capazes de ampliar sua base 
                 de clientes, impulsionar suas vendas e maximizar os lucros do seu negócio. 
               </p>
-              <Link onClick={handleClick} target='_blank' href="https://api.whatsapp.com/send?phone=5511942042774" className="btn-green" id="bnt-mais-resultados">
+              <Link onClick={handleClick}  href="#planos" className="btn-green" id="bnt-mais-resultados">
                 Quero ter mais resultados
               </Link>
             </div>
