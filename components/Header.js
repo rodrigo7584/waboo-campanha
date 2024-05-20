@@ -81,9 +81,7 @@ const Header = () => {
             </Link>
             <nav className={isMenuOpen ? 'active' : ''}>
               <button
-                className={
-                  isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'
-                }
+                className={isMenuOpen ? 'btn-mobile-menu active' : 'btn-mobile-menu'}
                 aria-label="menu"
               >
                 <div></div>
@@ -166,7 +164,7 @@ const Header = () => {
                 <li>
                   <Link
                     onClick={handleClick}
-                    href="https://api.whatsapp.com/send?phone=5511942042774"
+                    href="https://api.whatsapp.com/send?phone=88998414763"
                     className="btn-green"
                     id="btn-whatsapp-header"
                     target="_blank"
