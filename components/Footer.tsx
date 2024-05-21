@@ -15,8 +15,8 @@ const Footer = () => {
             <Link href="mailto:contato@waboo.com.br" className="link-green">
               contato@waboo.com.br
             </Link>
-            <Link href="https://api.whatsapp.com/send?phone=88998414763" target='_blank' className="celnumber">
-              (11) 9.4204-2774
+            <Link href="https://api.whatsapp.com/send?phone=5588998414763" target='_blank' className="celnumber">
+              (88) 9.9841-4763 
             </Link>
             <div className="social-buttons">
               <SocialButton
@@ -29,7 +29,7 @@ const Footer = () => {
               />
               <SocialButton
                 icon="/icon-whatsapp.png"
-                link="https://api.whatsapp.com/send?phone=88998414763"
+                link="https://api.whatsapp.com/send?phone=5588998414763"
               />
               <SocialButton icon="/icon-behance.png" link="https://www.behance.net/waboocreative" />
             </div>
