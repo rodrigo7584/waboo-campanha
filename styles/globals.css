@@ -330,7 +330,8 @@ li {
   }
   .faq .row {
     width: 100%;
-  }
+  } 
+  
 }
 @media (max-width: 576px) {
   .container {
